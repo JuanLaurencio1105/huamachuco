@@ -20,7 +20,7 @@ const AboutUs = () => {
         <article className='mt-8 border border-slate-400 rounded-2xl md:flex sm:mt-12 lg:my-20'>
           <div className='w-full'>
             <img
-              src="/public/images/Turismo/huamachuco/hco-pan-1.jpg"
+              src="/images/Turismo/huamachuco/hco-pan-1.jpg"
               alt="Altura Huamachuco"
               className='rounded-t-xl w-full h-48 bg-center bg-cover object-cover md:rounded-t-none md:rounded-l-2xl md:h-full md:max-h-[450px] lg:max-h-[320px] lg:rounded-l-2xl'
             />
@@ -48,12 +48,12 @@ const AboutUs = () => {
         <Layout>
           <section className='flex flex-col gap-4 sm:flex-row'>
             <DataCard
-              image='/public/images/montaña.jpg'
+              image='/images/montaña.jpg'
               title='MISION'
               text='Somos una pagina web que busca impulsar el turismo en la ciudad de Huamachuco, en la que brindamos informacion sobre la cultura, tradicion y gastronomia de esta tierra del ande liberteño.'
             />
             <DataCard
-              image='/public/images/Vinoculares.jpg'
+              image='/images/Vinoculares.jpg'
               title='VISION'
               text='Somos una pagina web que busca impulsar el turismo en la ciudad de Huamachuco, en la que brindamos informacion sobre la cultura, tradicion y gastronomia de esta tierra del ande liberteño.'
             />
@@ -115,7 +115,7 @@ const AboutUs = () => {
                 </div>
               </form>
               <div className='w-full'>
-                <img src="/public/images/Turismo/huamachuco/pileta.jpg" alt="Plaza de Armas"
+                <img src="/images/Turismo/huamachuco/pileta.jpg" alt="Plaza de Armas"
                   className='w-full h-56 object-cover rounded-xl border border-black sm:h-[340px]'
                 />
               </div>

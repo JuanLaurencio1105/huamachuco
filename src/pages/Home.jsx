@@ -32,19 +32,19 @@ const Home = () => {
             <div onClick={() => setToggleTab(0)} className='flex flex-col justify-center items-center cursor-pointer text-center hover:scale-105 active:scale-95'>
               <img
                 className='w-10 md:w-16'
-                src="/src/assets/images/libro.png" alt="Libro Historia" />
+                src="/images/libro.png" alt="Libro Historia" />
               <p className='md:text-xl font-semibold'>Historia y cultura</p>
             </div>
             <div onClick={() => setToggleTab(1)} className='flex flex-col justify-center items-center cursor-pointer text-center hover:scale-105 active:scale-95'>
               <img
                 className='w-10 md:w-16'
-                src="/src/assets/images/brujula.png" alt="Libro Historia" />
+                src="/images/brujula.png" alt="Libro Historia" />
               <p className='md:text-xl font-semibold'>Aventura</p>
             </div>
             <div onClick={() => setToggleTab(2)} className='flex flex-col justify-center items-center cursor-pointer text-center hover:scale-105 active:scale-95'>
               <img
                 className='w-10 md:w-16'
-                src="/src/assets/images/plato.png" alt="Libro Historia" />
+                src="/images/plato.png" alt="Libro Historia" />
               <p className='md:text-xl font-semibold'>Gastronomia</p>
             </div>
           </div>
@@ -55,7 +55,7 @@ const Home = () => {
           toggleTab === 0 && (
             <>
               <img className='w-full object-cover bg-center h-full'
-                src="/public/images/Turismo/markahuamachuco/mrkhco2.jpg"
+                src="/images/Turismo/markahuamachuco/mrkhco2.jpg"
                 alt="Imagen de MarkaHuamachuco"
               />
               <div className='absolute top-0 right-0 z-10 bg-black bg-opacity-70 h-full max-w-lg px-6 flex flex-col gap-4 sm:max-w-md md:px-10 sm:gap-6 md:max-w-lg lg:gap-10 lg:max-w-2xl'>
@@ -77,7 +77,7 @@ const Home = () => {
           toggleTab === 1 && (
             <>
               <img className='w-full object-cover bg-center h-full'
-                src="/src/assets/images/Turismo/huamachuco/plaza-pan.jpeg"
+                src="/images/Turismo/huamachuco/plaza-pan.jpeg"
                 alt="Imagen de MarkaHuamachuco"
               />
               <div className='absolute top-0 right-0 z-10 bg-black bg-opacity-70 h-full max-w-lg px-6 flex flex-col gap-4 sm:max-w-md md:px-10 sm:gap-6 md:max-w-lg lg:gap-10 lg:max-w-2xl'>
@@ -99,7 +99,7 @@ const Home = () => {
           toggleTab === 2 && (
             <>
               <img className='w-full object-cover bg-center h-full'
-                src="/src/assets/images/Turismo/huamachuco/plaza.jpg"
+                src="/images/Turismo/huamachuco/plaza.jpg"
                 alt="Imagen de MarkaHuamachuco"
               />
               <div className='absolute top-0 right-0 z-10 bg-black bg-opacity-70 h-full max-w-lg px-6 flex flex-col gap-4 sm:max-w-md md:px-10 sm:gap-6 md:max-w-lg lg:gap-10 lg:max-w-2xl'>
