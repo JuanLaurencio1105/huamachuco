@@ -1,0 +1,708 @@
+{
+  "turismo": [
+    {
+      "id": 1,
+      "slug": "laguna-sausacocha",
+      "titleTour": "Laguna Sausacocha",
+      "titleRecreative": "Actividades Recreativas",
+      "titleGastronomia": "Gastronomia",
+      "titleRecomendaciones": "Recomendaciones",
+      "image": "/src/assets/images/Turismo/laguna/LAGUNA-SAUSACOCHA-1.jpg",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
+      "gallery": [
+        {
+          "route": "/src/assets/images/Turismo/laguna/LAGUNA-SAUSACOCHA-1.jpg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/laguna/laguna-botes.jpeg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/laguna/laguna-noche-r.jpg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/laguna/laguna-pan.jpg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/laguna/laguna-f.jpeg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/laguna/lagunaas.jpg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/laguna/laguna-casa.jpeg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/laguna/laguna-muelle.jpg"
+        }
+      ],
+      "recreative": [
+        {
+          "id": 1,
+          "image": "/src/assets/images/Turismo/laguna/laguna-botes.jpeg",
+          "title": "Carrera de Botes1",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 2,
+          "image": "/src/assets/images/Turismo/laguna/parapente-laguna.jpg",
+          "title": "Parapente2",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 3,
+          "image": "/src/assets/images/Turismo/laguna/parapente-laguna.jpg",
+          "title": "Parapenteq3",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 4,
+          "image": "/src/assets/images/Turismo/laguna/parapente-laguna.jpg",
+          "title": "Parapentee4",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        }
+      ],
+      "gastronomy": [
+        {
+          "id": 1,
+          "image": "/src/assets/images/Gastronomia/trucha-lagunaa.jpg",
+          "title": "Trucha Frita",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 2,
+          "image": "/src/assets/images/Gastronomia/cuy-frito.jpg",
+          "title": "Cuy Frito",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 3,
+          "image": "/src/assets/images/Gastronomia/cuy-frito.jpg",
+          "title": "Cuy Frito",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 4,
+          "image": "/src/assets/images/Gastronomia/cuy-frito.jpg",
+          "title": "Cuy Frito",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        }
+      ],
+      "recommendation": [
+        {
+          "id": 1,
+          "description": "Colocarse rendas abrigadas"
+        },
+        {
+          "id": 2,
+          "description": "Verificar estado de salud"
+        },
+        {
+          "id": 3,
+          "description": "Contar con zapatos comodos"
+        },
+        {
+          "id": 4,
+          "description": "No ingresar al agua si consumio bebidas alcholicas"
+        },
+        {
+          "id": 5,
+          "description": "Verificar Estado del clima para realizar alguna actividad"
+        },
+        {
+          "id": 6,
+          "description": "Considerar el tema de la altura, mantengase siempre hidratado"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "markahuamachuco",
+      "titleTour": "MarkaHuamachuco",
+      "titleRecreative": "Actividades Recreativas",
+      "titleGastronomia": "Gastronomia",
+      "titleRecomendaciones": "Recomendaciones",
+      "image": "/src/assets/images/Turismo/markahuamachuco/mrkhco-3.jpeg",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
+      "gallery": [
+        {
+          "route": "/src/assets/images/Turismo/markahuamachuco/mrkhcoo.jpg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/markahuamachuco/mrkhco1.jpg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/markahuamachuco/torre-mrkhco.jpg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/markahuamachuco/mrkhco2.jpg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/markahuamachuco/mrkhco-3.jpeg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/markahuamachuco/mrkhco-4.jpg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/markahuamachuco/mrkhco-5.jpg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/markahuamachuco/mrkhco-6.jpeg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/markahuamachuco/mrkhco-7.png"
+        }
+      ],
+      "recreative": [
+        {
+          "id": 1,
+          "image": "/src/assets/images/Turismo/markahuamachuco/mrkhcoo.jpg",
+          "title": "Excursion",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 2,
+          "image": "/src/assets/images/Turismo/markahuamachuco/mrkhco-3.jpeg",
+          "title": "No se que poner",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 3,
+          "image": "/src/assets/images/Turismo/markahuamachuco/mrkhco-3.jpeg",
+          "title": "No se que poner",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 4,
+          "image": "/src/assets/images/Turismo/markahuamachuco/mrkhco-8.jpg",
+          "title": "No se que poner",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        }
+      ],
+      "gastronomy": "",
+      "recommendation": [
+        {
+          "id": 1,
+          "description": "No Arrojar Basura al complejo Arqueologico"
+        },
+        {
+          "id": 2,
+          "description": "No tratar de hacer daños materiales"
+        },
+        {
+          "id": 3,
+          "description": "Contar con ropa abrigada"
+        },
+        {
+          "id": 4,
+          "description": "No ingresar alimentos para no ensuciar"
+        },
+        {
+          "id": 5,
+          "description": "Verificar Estado del clima para realizar alguna actividad"
+        },
+        {
+          "id": 6,
+          "description": "Considerar el tema de la altura, mantengase siempre hidratado"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "wiracochapampa",
+      "titleTour": "Wiracochapampa",
+      "titleRecreative": "Actividades Recreativas",
+      "titleGastronomia": "Gastronomia",
+      "titleRecomendaciones": "Recomendaciones",
+      "image": "/src/assets/images/Turismo/wiracochapampa/wiracochapampa.jpg",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
+      "gallery": [
+        {
+          "route": "/src/assets/images/Turismo/wiracochapampa/wira.webp"
+        },
+        {
+          "route": "/src/assets/images/Turismo/wiracochapampa/wira1.png"
+        },
+        {
+          "route": "/src/assets/images/Turismo/wiracochapampa/wira2.webp"
+        },
+        {
+          "route": "/src/assets/images/Turismo/wiracochapampa/wiracochapampa1.jpg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/wiracochapampa/wiracochapampa.jpg"
+        }
+      ],
+      "recreative": [
+        {
+          "id": 1,
+          "image": "/src/assets/images/Turismo/wiracochapampa/wira2.webp",
+          "title": "Actividad 1",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 2,
+          "image": "/src/assets/images/Turismo/wiracochapampa/wira1.webp",
+          "title": "Actividad 2",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 3,
+          "image": "/src/assets/images/Turismo/wiracochapampa/wira1.webp",
+          "title": "Actividad 3",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 4,
+          "image": "/src/assets/images/Turismo/wiracochapampa/wira1.webp",
+          "title": "Actividad 4",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        }
+      ],
+      "gastronomy": "",
+      "recommendation": [
+        {
+          "id": 1,
+          "description": "Colocarse prendas abrigadas"
+        },
+        {
+          "id": 2,
+          "description": "Verificar su estado de salud"
+        },
+        {
+          "id": 3,
+          "description": "Contar con zapatos comodos"
+        },
+        {
+          "id": 4,
+          "description": "No hacer daños al lugar"
+        },
+        {
+          "id": 5,
+          "description": "Verificar Estado del clima para realizar alguna actividad"
+        },
+        {
+          "id": 6,
+          "description": "No Arrojar basura y/o Ensuciar el Lugar"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "huaylilas",
+      "titleTour": "Cerro Huaylillas",
+      "titleRecreative": "Actividades Recreativas",
+      "titleGastronomia": "Gastronomia",
+      "titleRecomendaciones": "Recomendaciones",
+      "image": "/src/assets/images/Turismo/huaylillas/huaylillas.jpeg",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
+      "gallery": [
+        {
+          "route": "/src/assets/images/Turismo/huaylillas/huaylillas.jpg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/huaylillas/huaylillas.jpeg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/huaylillas/huaylillas-pan.jpg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/huaylillas/huaylillas-pan2.jpg"
+        }
+      ],
+      "recreative": [
+        {
+          "id": 1,
+          "image": "/src/assets/images/Turismo/huaylillas/huaylillas.jpeg",
+          "title": "Caminata",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 2,
+          "image": "/src/assets/images/Turismo/huaylillas/huaylillas-pan.jpg",
+          "title": "Escalar",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 3,
+          "image": "/src/assets/images/Turismo/huaylillas/huaylillas-pan2.jpg",
+          "title": "No se que poner",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 4,
+          "image": "/src/assets/images/Turismo/huaylillas/huaylillas-pan2.jpg",
+          "title": "No se que poner",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        }
+      ],
+      "gastronomy": "",
+      "recommendation": [
+        {
+          "id": 1,
+          "description": "Colocarse prendas abrigadas(importante)"
+        },
+        {
+          "id": 2,
+          "description": "Verificar estado de salud"
+        },
+        {
+          "id": 3,
+          "description": "Contar con zapatos no resbalosos"
+        },
+        {
+          "id": 4,
+          "description": "No ingresar al agua si consumio bebidas alcholicas"
+        },
+        {
+          "id": 5,
+          "description": "Verificar Estado del clima para realizar alguna actividad"
+        },
+        {
+          "id": 6,
+          "description": "Considerar el tema de la altura, mantengase siempre hidratado"
+        },
+        {
+          "id": 7,
+          "description": "Si piensa escalar con mucha precaucion"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "yanasara",
+      "titleTour": "Yanasara",
+      "titleRecreative": "Actividades Recreativas",
+      "titleGastronomia": "Gastronomia",
+      "titleRecomendaciones": "Recomendaciones",
+      "image": "/src/assets/images/Turismo/yanasara/yanasara.jpeg",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
+      "gallery": [
+        {
+          "route": "/src/assets/images/Turismo/yanasara/yanasara.jpeg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/yanasara/yanazara-aguas-termales.jpg"
+        }
+      ],
+      "recreative": [
+        {
+          "id": 1,
+          "image": "/src/assets/images/Turismo/yanasara/yanazara-aguas-termales.jpg",
+          "title": "Natacion",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 2,
+          "image": "/src/assets/images/Turismo/yanasara/yanazara-aguas-termales.jpg",
+          "title": "Campamento",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 3,
+          "image": "/src/assets/images/Turismo/yanasara/yanazara-aguas-termales.jpg",
+          "title": "Deporte",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 4,
+          "image": "/src/assets/images/Turismo/yanasara/yanazara-aguas-termales.jpg",
+          "title": "Deporte",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        }
+      ],
+      "gastronomy": [
+        {
+          "id": 1,
+          "image": "/src/assets/images/Gastronomia/trucha-lagunaa.jpg",
+          "title": "TRUCHA FRITA",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 2,
+          "image": "/src/assets/images/Gastronomia/cuy-frito.jpg",
+          "title": "TRUCHA FRITA",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 3,
+          "image": "/src/assets/images/Gastronomia/cuy-frito.jpg",
+          "title": "TRUCHA FRITA",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 4,
+          "image": "/src/assets/images/Gastronomia/cuy-frito.jpg",
+          "title": "TRUCHA FRITA",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        }
+      ],
+      "recommendation": [
+        {
+          "id": 1,
+          "description": "Colocarse prendas comodas para el calor"
+        },
+        {
+          "id": 2,
+          "description": "Llevar ropa de repuesto"
+        },
+        {
+          "id": 3,
+          "description": "Ir con tiempo de anticipacion para disfrutar"
+        },
+        {
+          "id": 4,
+          "description": "No ingresar al agua si consumio bebidas alcholicas"
+        },
+        {
+          "id": 5,
+          "description": "Verificar Estado del clima para realizar alguna actividad"
+        },
+        {
+          "id": 6,
+          "description": "No Arrojar basura o ensuciar el lugar"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "el-eden",
+      "titleTour": "El eden",
+      "titleRecreative": "Actividades Recreativas",
+      "titleGastronomia": "Gastronomia",
+      "titleRecomendaciones": "Recomendaciones",
+      "image": "/src/assets/images/Turismo/eleden/el-eden.jpeg",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
+      "gallery": [
+        {
+          "route": "/src/assets/images/Turismo/eleden/el-eden.jpeg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/eleden/eden.jpg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/eleden/eden-1.jpeg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/eleden/eden-2.jpeg"
+        },
+        {
+          "route": "/src/assets/images/Turismo/eleden/eden-3.jpg"
+        }
+      ],
+      "recreative": [
+        {
+          "id": 1,
+          "image": "/src/assets/images/Turismo/eleden/eden.jpg",
+          "title": "Actividad 1",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 2,
+          "image": "/src/assets/images/Turismo/eleden/el-eden.jpeg",
+          "title": "Actividad 2",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 3,
+          "image": "/src/assets/images/Turismo/eleden/el-eden.jpeg",
+          "title": "Actividad 3",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 2,
+          "image": "/src/assets/images/Turismo/eleden/el-eden.jpeg",
+          "title": "Actividad 4",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        }
+      ],
+      "gastronomy": [
+        {
+          "id": 1,
+          "image": "/src/assets/images/Gastronomia/trucha-lagunaa.jpg",
+          "title": "TRUCHA FRITA",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 2,
+          "image": "/src/assets/images/Gastronomia/cuy-frito.jpg",
+          "title": "TRUCHA FRITA",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 3,
+          "image": "/src/assets/images/Gastronomia/cuy-frito.jpg",
+          "title": "TRUCHA FRITA",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        },
+        {
+          "id": 4,
+          "image": "/src/assets/images/Gastronomia/cuy-frito.jpg",
+          "title": "TRUCHA FRITA",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+        }
+      ],
+      "recommendation": [
+        {
+          "id": 1,
+          "description": "Colocarse prendas comodas para el calor"
+        },
+        {
+          "id": 2,
+          "description": "Llevar ropa de repuesto"
+        },
+        {
+          "id": 3,
+          "description": "Contar con zapatos comodos"
+        },
+        {
+          "id": 4,
+          "description": "No ingresar al agua si consumio bebidas alcholicas"
+        },
+        {
+          "id": 5,
+          "description": "Verificar Estado del clima para realizar alguna actividad"
+        },
+        {
+          "id": 6,
+          "description": "Considerar el tema de la altura, mantengase siempre hidratado"
+        },
+        {
+          "id": 7,
+          "description": "No Arrojar basura y/o Ensuciar el lugar"
+        },
+        {
+          "id": 8,
+          "description": "Si sale tarde es recomendable Hospedarse en un Hotel"
+        }
+      ]
+    }
+  ],
+  "costumbre": [
+    {
+      "id": 1,
+      "slug": "",
+      "title": "Festival Parada del Gallardete Huamachuco",
+      "image": "/src/assets/images/Costumbres/gallardete.jpg",
+      "description": "Se realiza con el fin de dar inicio a la fiesta patronal en honor a la virgen de la alta gracia."
+    },
+    {
+      "id": 2,
+      "slug": "",
+      "title": "Danza de nuestra Tierra 'La Contradanza'.",
+      "image": "/src/assets/images/Costumbres/contradanzanina2022.jpg",
+      "description": "Se realiza con el fin de dar inicio a la fiesta patronal en honor a la virgen de la alta gracia."
+    },
+    {
+      "id": 3,
+      "slug": "",
+      "title": "Danza en Honor a la Virgen de la Alta Gracia.",
+      "image": "/src/assets/images/Costumbres/virgen.jpg",
+      "description": "Se realiza con el fin de dar inicio a la fiesta patronal en honor a la virgen de la alta gracia."
+    },
+    {
+      "id": 4,
+      "slug": "",
+      "title": "Festividad en Honor a San Francisco de Asis.",
+      "image": "/src/assets/images/Costumbres/negritos.jpg",
+      "description": "Se realiza con el fin de dar inicio a la fiesta patronal en honor a la virgen de la alta gracia."
+    }
+  ],
+  "gastronomia": {
+    "platos": [
+      {
+        "id": 1,
+        "slug": "",
+        "title": "Shambar",
+        "description": "Este plato es tradicionalmente esta asociado con los dias lunes al mediodia, esta compuesto a base de menestras, trigo pelado, y acompañado de un pellejo de chancho.",
+        "image": "/src/assets/images/Gastronomia/shambar.png"
+      },
+      {
+        "id": 2,
+        "slug": "",
+        "title": "Pachamanca",
+        "description": "Una tradicional cocción a base de carnes y tubérculos que se cocina en un horno de piedra caliente, bajo tierra, lo que da como resultado una mezcla de sabores intensos y aromas únicos.",
+        "image": "/src/assets/images/Gastronomia/pachamanca.jpg"
+      },
+      {
+        "id": 3,
+        "slug": "",
+        "title": "Picante de Cuy",
+        "description": "Este plato esta asociado a los dias festivos y fue comida de nuestros ancestros. El cuy es frito, el cual esta acompañado de un ajiaco de papas amarillas.",
+        "image": "/src/assets/images/Gastronomia/picante-de-cuy.jpg"
+      },
+      {
+        "id": 4,
+        "slug": "",
+        "title": "Trucha Frita",
+        "description": "La región de La Libertad también es conocida por sus truchas frescas, y una forma popular de prepararlas es a la parrilla o fritas.",
+        "image": "/src/assets/images/Gastronomia/trucha-lagunaa.jpg"
+      },
+      {
+        "id": 5,
+        "slug": "",
+        "title": "Chicharron con yuca",
+        "description": "Este plato esta asociado a los dias festivos y fue comida de nuestros ancestros. El cuy es frito, el cual esta acompañado de un ajiaco de papas amarillas.",
+        "image": "/src/assets/images/Gastronomia/chicharron.jpg"
+      },
+      {
+        "id": 6,
+        "slug": "",
+        "title": "Humitas",
+        "description": "Este plato esta asociado a los dias festivos y fue comida de nuestros ancestros. El cuy es frito, el cual esta acompañado de un ajiaco de papas amarillas.",
+        "image": "/src/assets/images/Gastronomia/humitas.jpg"
+      }
+    ],
+    "bebidas": [
+      {
+        "title": "Mazamorra de quinua",
+        "description": "Similar a la mazamorra, pero preparada con quinua en lugar de maíz morado.",
+        "image": "/src/assets/images/Gastronomia/mazamorra-quinua.jpg"
+      },
+      {
+        "title": "Arroz con leche",
+        "description": "Una preparación a base de arroz cocido en leche con canela y azúcar, que se sirve frío.",
+        "image": "/src/assets/images/Gastronomia/Arrozconleche.jpg"
+      },
+      {
+        "title": "Picarones",
+        "description": "Una especie de rosquillas hechas de camote y calabaza, fritas y bañadas en miel de chancaca.",
+        "image": "/src/assets/images/Gastronomia/picarones.jpg"
+      },
+      {
+        "title": "Chicha de Jora",
+        "description": "Una bebida fermentada a base de maíz, que es muy popular en todo el Perú y se consume en muchas ocasiones festivas.",
+        "image": "/src/assets/images/Gastronomia/chicha-jora.jpg"
+      },
+      {
+        "title": "Emoliente",
+        "description": "Una bebida caliente hecha a base de hierbas medicinales, como la cebada, linaza, alfalfa y otras, endulzada con miel y limón.",
+        "image": "/src/assets/images/Gastronomia/emoliente.jpg"
+      },
+      {
+        "title": "Agua de cebada",
+        "description": "Una bebida refrescante hecha a base de cebada y limón, que se consume especialmente en épocas calurosas.",
+        "image": "/src/assets/images/Gastronomia/cebada.webp"
+      }
+    ]
+  },
+  "slides": [
+    {
+      "id": 1,
+      "imageUrl": "/src/assets/images/Turismo/markahuamachuco/mrkhco.jpg",
+      "title": "VISITA ESTE INCREIBLE LUGAR",
+      "text": "MARKAHUAMACHUCO"
+    },
+    {
+      "id": 2,
+      "imageUrl": "/src/assets/images/Turismo/laguna/laguna-noche-r.jpg",
+      "title": "VISITA ESTE INCREIBLE LUGAR",
+      "text": "LAGUNA SAUSACOCHA"
+    },
+    {
+      "id": 3,
+      "imageUrl": "/src/assets/images/Turismo/huamachuco/parada-gallardete.jpg",
+      "title": "SOBRE NOSOTROS",
+      "text": ""
+    }
+  ]
+}
