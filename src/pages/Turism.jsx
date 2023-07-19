@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import Layout from '../layouts/Layout'
 import Slide from '../layouts/Slide'
-import datosJson from '/public/datos.json'
+import datosJson from '../../public/datos.json'
+// import datosJson from '/public/datos.json'
 import CardTour from '../components/CardTour'
 
 const Turism = () => {

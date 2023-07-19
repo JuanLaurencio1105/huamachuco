@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Button from '../components/Button'
 import { Link } from 'react-router-dom'
-import datosJson from '/public/datos.json'
+import datosJson from '../../public/datos.json'
 import Layout from '../layouts/Layout'
 import Hero from '../components/Hero'
 import CardTour from '../components/CardTour'

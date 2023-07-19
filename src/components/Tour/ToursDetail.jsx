@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
-import datosJson from '/public/datos.json'
+import datosJson from '../../../public/datos.json'
 import Layout from '../../layouts/Layout'
 import DataCard from '../DataCard'
 import { BsSnow } from 'react-icons/bs'

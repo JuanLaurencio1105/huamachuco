@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Slide from '../layouts/Slide'
-import datosJson from '/public/datos.json'
+import datosJson from '../../public/datos.json'
 import Layout from '../layouts/Layout'
 import FormInput from '../components/Form/FormInput'
 import TextArea from '../components/Form/TextArea'
