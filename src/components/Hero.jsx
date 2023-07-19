@@ -10,27 +10,27 @@ const Hero = () => {
   const slides = [
     {
       id: 1,
-      imageUrl: '/public/images/Turismo/huamachuco/hco-pan.jpeg'
+      imageUrl: '/images/Turismo/huamachuco/hco-pan.jpeg'
     },
     {
       id: 2,
-      imageUrl: '/public/images/Turismo/huamachuco/agua-pajaritos.jpeg',
+      imageUrl: '/images/Turismo/huamachuco/agua-pajaritos.jpeg',
     },
     {
       id: 3,
-      imageUrl: '/public/images/Turismo/markahuamachuco/mrkhco-7.png',
+      imageUrl: '/images/Turismo/markahuamachuco/mrkhco-7.png',
     },
     {
       id: 4,
-      imageUrl: '/public/images/Turismo/laguna/lagunaas.jpg',
+      imageUrl: '/images/Turismo/laguna/lagunaas.jpg',
     },
     {
       id: 5,
-      imageUrl: '/public/images/Turismo/markahuamachuco/mrkhco.jpg',
+      imageUrl: '/images/Turismo/markahuamachuco/mrkhco.jpg',
     },
     {
       id: 6,
-      imageUrl: '/public/images/Turismo/huamachuco/plaza-sn.jpg',
+      imageUrl: '/images/Turismo/huamachuco/plaza-sn.jpg',
     },
   ]
 
