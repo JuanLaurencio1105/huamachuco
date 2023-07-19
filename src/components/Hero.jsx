@@ -2,9 +2,7 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, EffectFade } from 'swiper/modules'
 import 'swiper/css'
-import 'swiper/css/navigation'
 import 'swiper/css/autoplay'
-import 'swiper/css/effect-creative'
 import 'swiper/css/effect-fade'
 
 const Hero = () => {
@@ -12,27 +10,27 @@ const Hero = () => {
   const slides = [
     {
       id: 1,
-      imageUrl: '/src/assets/images/Turismo/huamachuco/hco-pan.jpeg'
+      imageUrl: '/public/images/Turismo/huamachuco/hco-pan.jpeg'
     },
     {
       id: 2,
-      imageUrl: '/src/assets/images/Turismo/huamachuco/agua-pajaritos.jpeg',
+      imageUrl: '/public/images/Turismo/huamachuco/agua-pajaritos.jpeg',
     },
     {
       id: 3,
-      imageUrl: '/src/assets/images/Turismo/markahuamachuco/mrkhco-7.png',
+      imageUrl: '/public/images/Turismo/markahuamachuco/mrkhco-7.png',
     },
     {
       id: 4,
-      imageUrl: '/src/assets/images/Turismo/laguna/lagunaas.jpg',
+      imageUrl: '/public/images/Turismo/laguna/lagunaas.jpg',
     },
     {
       id: 5,
-      imageUrl: '/src/assets/images/Turismo/markahuamachuco/mrkhco.jpg',
+      imageUrl: '/public/images/Turismo/markahuamachuco/mrkhco.jpg',
     },
     {
       id: 6,
-      imageUrl: '/src/assets/images/Turismo/huamachuco/plaza-sn.jpg',
+      imageUrl: '/public/images/Turismo/huamachuco/plaza-sn.jpg',
     },
   ]
 
@@ -40,20 +38,7 @@ const Hero = () => {
     <Swiper
       spaceBetween={50}
       slidesPerView={1}
-      // className='mySwiper5'
       grabCursor={true}
-      // creativeEffect={{
-      //   prev: {
-      //     shadow: true,
-      //     translate: ['-125%', 0, -100],
-      //     rotate: [0, 0, -10],
-      //   },
-      //   next: {
-      //     shadow: true,
-      //     translate: ['125%', 0, -100],
-      //     rotate: [0, 0, 10],
-      //   },
-      // }}
       autoplay={{ delay: 5000, disableOnInteraction: false }}
       modules={[Autoplay, EffectFade]}
       loop='true'

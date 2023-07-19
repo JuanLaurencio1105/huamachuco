@@ -14,7 +14,7 @@ const Footer = () => {
         <div className='flex justify-center'>
           <Link to='/' onClick={scroolTop}>
             <img
-              src="/src/assets/images/logo/blanco.png"
+              src="/public/images/logo/blanco.png"
               alt="Logo"
               className='w-36'
             />

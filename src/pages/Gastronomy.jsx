@@ -129,7 +129,7 @@ const Gastronomy = () => {
           <div>
             <img
               className='w-full h-80 bg-cover bg-center object-cover max-w-[300px] mx-auto'
-              src="/src/assets/images/Turismo/huamachuco/campanario.jpeg" alt="Imagen del campanario huamachuco" />
+              src="/public/images/Turismo/huamachuco/campanario.jpeg" alt="Imagen del campanario huamachuco" />
           </div>
         </section>
       </Layout>

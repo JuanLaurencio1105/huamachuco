@@ -55,7 +55,7 @@ const Home = () => {
           toggleTab === 0 && (
             <>
               <img className='w-full object-cover bg-center h-full'
-                src="/src/assets/images/Turismo/markahuamachuco/mrkhco2.jpg"
+                src="/public/images/Turismo/markahuamachuco/mrkhco2.jpg"
                 alt="Imagen de MarkaHuamachuco"
               />
               <div className='absolute top-0 right-0 z-10 bg-black bg-opacity-70 h-full max-w-lg px-6 flex flex-col gap-4 sm:max-w-md md:px-10 sm:gap-6 md:max-w-lg lg:gap-10 lg:max-w-2xl'>
