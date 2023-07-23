@@ -8,6 +8,7 @@
       "titleGastronomia": "Gastronomia",
       "titleRecomendaciones": "Recomendaciones",
       "image": "/images/Turismo/laguna/LAGUNA-SAUSACOCHA-1.jpg",
+      "hero": "/images/Turismo/laguna/laguna1.jpg",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
       "gallery": [
         {
@@ -122,6 +123,7 @@
       "titleGastronomia": "Gastronomia",
       "titleRecomendaciones": "Recomendaciones",
       "image": "/images/Turismo/markahuamachuco/mrkhco-3.jpeg",
+      "hero": "/images/Turismo/markahuamachuco/mrkhco.jpg",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
       "gallery": [
         {
@@ -214,6 +216,7 @@
       "titleGastronomia": "Gastronomia",
       "titleRecomendaciones": "Recomendaciones",
       "image": "/images/Turismo/wiracochapampa/wiracochapampa.jpg",
+      "hero": "/images/Turismo/wiracochapampa/wira.webp",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
       "gallery": [
         {
@@ -294,6 +297,7 @@
       "titleGastronomia": "Gastronomia",
       "titleRecomendaciones": "Recomendaciones",
       "image": "/images/Turismo/huaylillas/huaylillas.jpeg",
+      "hero": "/images/Turismo/huaylillas/huaylillas1.jpg",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
       "gallery": [
         {
@@ -375,6 +379,7 @@
       "titleGastronomia": "Gastronomia",
       "titleRecomendaciones": "Recomendaciones",
       "image": "/images/Turismo/yanasara/yanasara.jpeg",
+      "hero": "/images/Turismo/yanasara/yanasara1.jpg",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
       "gallery": [
         {
@@ -471,6 +476,7 @@
       "titleGastronomia": "Gastronomia",
       "titleRecomendaciones": "Recomendaciones",
       "image": "/images/Turismo/eleden/el-eden.jpeg",
+      "hero": "/images/Turismo/eleden/eden11.jpg",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
       "gallery": [
         {
@@ -694,14 +700,50 @@
     },
     {
       "id": 2,
-      "imageUrl": "/images/Turismo/laguna/laguna-noche-r.jpg",
+      "imageUrl": "/images/Turismo/laguna/laguna1.jpg",
       "title": "VISITA ESTE INCREIBLE LUGAR",
       "text": "LAGUNA SAUSACOCHA"
     },
     {
       "id": 3,
+      "imageUrl": "/images/Turismo/wiracochapampa/wira.webp",
+      "title": "VISITA ESTE INCREIBLE LUGAR",
+      "text": "WIRACOCHAPAMPA"
+    },
+    {
+      "id": 4,
+      "imageUrl": "/images/Turismo/huaylillas/huaylillas1.jpg",
+      "title": "VISITA ESTE INCREIBLE LUGAR",
+      "text": "LAGUNA CUSHURO"
+    },
+    {
+      "id": 5,
+      "imageUrl": "/images/Turismo/yanasara/yanasara1.jpg",
+      "title": "VISITA ESTE INCREIBLE LUGAR",
+      "text": "AGUAS TERMALES DE YANASARA"
+    },
+    {
+      "id": 6,
+      "imageUrl": "/images/Turismo/eleden/eden11.jpg",
+      "title": "VISITA ESTE INCREIBLE LUGAR",
+      "text": "AGUAS TERMALES EL EDEN"
+    },
+    {
+      "id": 7,
       "imageUrl": "/images/Turismo/huamachuco/parada-gallardete.jpg",
       "title": "SOBRE NOSOTROS",
+      "text": ""
+    },
+    {
+      "id": 8,
+      "imageUrl": "/images/Turismo/huamachuco/parada-gallardete.jpg",
+      "title": "GASTRONOMIA",
+      "text": ""
+    },
+    {
+      "id": 9,
+      "imageUrl": "/images/Turismo/huamachuco/parada-gallardete.jpg",
+      "title": "CONTACTO",
       "text": ""
     }
   ]

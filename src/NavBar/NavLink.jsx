@@ -10,11 +10,11 @@ const NavLink = ({ to, text, icon, onClick }) => {
         to={to}
         active={path}
         onClick={onClick}
-        className={`flex flex-col items-center hover:text-black transition px-4`}
+        className={`flex flex-col items-center hover:text-yellow transition px-4`}
         aria-current="page"
       >
-        <span>{icon}</span>
-        <p className={`font-semibold text-base ${href === to ? 'border-b-2 border-blue' : ''}`}>{text.toUpperCase()}</p>
+        <span className={`${href === to ? 'text-yellow' : ''}`}>{icon}</span>
+        <p className={`font-semibold text-base ${href === to ? 'border-b-2 border-blue text-yellow' : ''}`}>{text.toUpperCase()}</p>
       </Link>
     </li>
   )

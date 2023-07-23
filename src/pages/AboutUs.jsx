@@ -10,7 +10,7 @@ import Button from '../components/Button'
 const AboutUs = () => {
 
   const [nosotros] = useState(datosJson.slides)
-  const slideNosotros = nosotros.slice(2)
+  const slideNosotros = nosotros.slice(6)
   return (
     <div className='relative overflow-hidden'>
       <div>
@@ -20,7 +20,7 @@ const AboutUs = () => {
         <article className='mt-8 border border-slate-400 rounded-2xl md:flex sm:mt-12 lg:my-20'>
           <div className='w-full'>
             <img
-              src="/images/Turismo/huamachuco/hco-pan-1.jpg"
+              src="/images/Turismo/huamachuco/plazaa1.jpg"
               alt="Altura Huamachuco"
               className='rounded-t-xl w-full h-48 bg-center bg-cover object-cover md:rounded-t-none md:rounded-l-2xl md:h-full md:max-h-[450px] lg:max-h-[320px] lg:rounded-l-2xl'
             />

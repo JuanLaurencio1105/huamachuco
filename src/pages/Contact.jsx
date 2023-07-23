@@ -9,9 +9,10 @@ import Button from '../components/Button'
 const Contact = () => {
 
   const [data] = useState(datosJson.slides)
+  const slideContact = data.slice(8)
   return (
     <>
-      <Slide data={data} />
+      <Slide data={slideContact} />
       <div className='lg:px-10 xl:px-20'>
         <Layout>
           <div className='mt-10 md:flex justify-center items-center gap-6'>

@@ -17,11 +17,13 @@ const Gastronomy = () => {
   const [platos] = useState(datosJson.gastronomia.platos)
   const [bebidas] = useState(datosJson.gastronomia.bebidas)
   console.log(platos)
+
+  const slideGastronomy = data.slice(7)
   return (
     <div>
       <Slide
-        data={data}
-        key={data.id}
+        data={slideGastronomy}
+        // key={data.id}
       />
       <Layout>
         <div className='my-10 flex flex-col gap-4 lg:px-20'>
