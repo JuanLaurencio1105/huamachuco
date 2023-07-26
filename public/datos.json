@@ -5,11 +5,11 @@
       "slug": "laguna-sausacocha",
       "titleTour": "Laguna Sausacocha",
       "titleRecreative": "Actividades Recreativas",
-      "titleGastronomia": "Gastronomia",
+      "titleGastronomia": "Gastronomia Local",
       "titleRecomendaciones": "Recomendaciones",
       "image": "/images/Turismo/laguna/LAGUNA-SAUSACOCHA-1.jpg",
       "hero": "/images/Turismo/laguna/laguna1.jpg",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
+      "description": "La laguna Sausacocha se encuentra a 3200 m.s.n.m. al noroeste de la ciudad de Huamachuco en La Libertad. Su nombre significa “laguna que nunca se seca” Se encuentra en un área de aproximadamente 4 kilómetros cuadrados, donde se puede encontrar no solo este atractivo natural sino también un centro recreativo familiar. Este cuenta con juegos infantiles y canchas de arena para jugar fútbol. Asimismo, se pueden encontrar varios restaurantes y hospedajes alrededor de la laguna.En sus alrededores se encuentra una gran cantidad de flora, como la totora, el carrizo y otros vegetales que sirven como hábitat ideal para los patos silvestres y las gallaretas. Dentro de la laguna también se pueden encontrar peces de agua dulces como truchas y carpas.Como ocurre con varios lugares naturales en los Andes, la laguna Sausacocha está revestida de una importancia cultural que se ve expresada y compartida a través de sus mitos locales.",
       "gallery": [
         {
           "route": "/images/Turismo/laguna/LAGUNA-SAUSACOCHA-1.jpg"
@@ -21,10 +21,10 @@
           "route": "/images/Turismo/laguna/laguna-noche-r.jpg"
         },
         {
-          "route": "/images/Turismo/laguna/laguna-pan.jpg"
+          "route": "/images/Turismo/laguna/lagunaa4.jpg"
         },
         {
-          "route": "/images/Turismo/laguna/laguna-f.jpeg"
+          "route": "/images/Turismo/laguna/isla.jpg"
         },
         {
           "route": "/images/Turismo/laguna/lagunaas.jpg"
@@ -33,33 +33,33 @@
           "route": "/images/Turismo/laguna/laguna-casa.jpeg"
         },
         {
-          "route": "/images/Turismo/laguna/laguna-muelle.jpg"
+          "route": "/images/Turismo/laguna/muelle2.jpg"
         }
       ],
       "recreative": [
         {
           "id": 1,
           "image": "/images/Turismo/laguna/laguna-botes.jpeg",
-          "title": "Carrera de Botes1",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "title": "Competencias Locales",
+          "description": "Debido a su extensión, es usual que la laguna Sausacocha sea lugar para competencias de deportes acuáticos. Si estás de suerte vas a poder presenciar un evento deportivo sin igual Las disciplinas que se llevan a cabo en la laguna son la moto acuática, el esquí acuático, el kayak y sky surf."
         },
         {
           "id": 2,
           "image": "/images/Turismo/laguna/parapente-laguna.jpg",
-          "title": "Parapente2",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "title": "Parapente",
+          "description": "En los dias festivos de la laguna sausacocha se reune mucha gente para presenciar las actividades que se realizan una de ellas es poder realizar parapente debido a la altura que tiene el lugar es posible realizarlo con seguridad y pasar un buen momento en familia y tener buenos recuerdos del lugar."
         },
         {
           "id": 3,
-          "image": "/images/Turismo/laguna/parapente-laguna.jpg",
-          "title": "Parapenteq3",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "image": "/images/Turismo/laguna/juego.jpeg",
+          "title": "Jugar en Familia",
+          "description": "El centro recreativo tiene áreas que están creadas para que los más pequeños puedan jugar. Puede encontrar un espacio de juegos infantiles y una cancha de fútbol, puede pasar un buen rato jugando en familia o dejando que los niños se diviertan mientras el resto de miembros puede pasear por el lugar."
         },
         {
           "id": 4,
-          "image": "/images/Turismo/laguna/parapente-laguna.jpg",
-          "title": "Parapentee4",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "image": "/images/Turismo/laguna/lagunaa2.jpg",
+          "title": "Tomar Fotografias",
+          "description": "Luego de pasar todo un día comiendo, jugando y asoleándose en los alrededores de la laguna, la mejor forma de terminar la jornada es ir al muelle a tener una mejor vista de la puesta del sol, Este muelle tiene un estilo clásico y es el lugar propicio para tomarse fotografías para el recuerdo en familia."
         }
       ],
       "gastronomy": [
@@ -118,19 +118,19 @@
     {
       "id": 2,
       "slug": "markahuamachuco",
-      "titleTour": "MarkaHuamachuco",
+      "titleTour": "MarcaHuamachuco",
       "titleRecreative": "Actividades Recreativas",
       "titleGastronomia": "Gastronomia",
       "titleRecomendaciones": "Recomendaciones",
       "image": "/images/Turismo/markahuamachuco/mrkhco-3.jpeg",
       "hero": "/images/Turismo/markahuamachuco/mrkhco.jpg",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
+      "description": "El complejo arqueológico de Marcahuamachuco es uno de los tesoros más valiosos de la región de Huamachuco, en la provincia de Sánchez Carrión, La Libertad, Perú. Esta impresionante ciudadela antigua se encuentra a unos 3,500 metros sobre el nivel del mar y es un testimonio asombroso de la ingeniería y la arquitectura de las culturas preincaicas que habitaron la zona.Marcahuamachuco fue un importante centro político, religioso y militar que se desarrolló entre los años 400 y 1300 d.C. Durante este período, la ciudadela experimentó un auge en su construcción y expansión. El complejo está compuesto por diferentes sectores y plazas, todos ellos interconectados por intrincados sistemas de terrazas y escalinatas.",
       "gallery": [
         {
           "route": "/images/Turismo/markahuamachuco/mrkhcoo.jpg"
         },
         {
-          "route": "/images/Turismo/markahuamachuco/mrkhco1.jpg"
+          "route": "/images/Turismo/markahuamachuco/guardian.jpg"
         },
         {
           "route": "/images/Turismo/markahuamachuco/torre-mrkhco.jpg"
@@ -148,7 +148,7 @@
           "route": "/images/Turismo/markahuamachuco/mrkhco-5.jpg"
         },
         {
-          "route": "/images/Turismo/markahuamachuco/mrkhco-6.jpeg"
+          "route": "/images/Turismo/markahuamachuco/camino3.jpg"
         },
         {
           "route": "/images/Turismo/markahuamachuco/mrkhco-7.png"
@@ -157,27 +157,27 @@
       "recreative": [
         {
           "id": 1,
-          "image": "/images/Turismo/markahuamachuco/mrkhcoo.jpg",
+          "image": "/images/Turismo/markahuamachuco/camino2.jpg",
           "title": "Excursion",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "description": "Explora las diversas estructuras que conforman el complejo arqueológico. Admira las columnas monolíticas del Templo de las Columnas, explora la Fortaleza, el Palacio y la Plaza de los Monumentos. Camina por las terrazas y escalinatas para obtener diferentes perspectivas de la ciudadela."
         },
         {
           "id": 2,
-          "image": "/images/Turismo/markahuamachuco/mrkhco-3.jpeg",
-          "title": "No se que poner",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "image": "/images/Turismo/markahuamachuco/caminomrk.jpg",
+          "title": "Fotografia",
+          "description": "Marcahuamachuco ofrece impresionantes vistas panorámicas y oportunidades fotográficas únicas. Captura la majestuosidad de las estructuras y el entorno natural que rodea el complejo. Las columnas, las plazas y los paisajes montañosos proporcionan escenas increíbles para los amantes de la fotografía."
         },
         {
           "id": 3,
-          "image": "/images/Turismo/markahuamachuco/mrkhco-3.jpeg",
-          "title": "No se que poner",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "image": "/images/Turismo/markahuamachuco/mrkhco1.jpg",
+          "title": "Interaccion Cultural",
+          "description": "Durante tu visita, tendrás la oportunidad de interactuar con los pobladores locales, quienes a menudo ofrecen artesanías y productos típicos. Aprende sobre su cultura, tradiciones y formas de vida, lo que agregará un toque auténtico a tu experiencia."
         },
         {
           "id": 4,
-          "image": "/images/Turismo/markahuamachuco/mrkhco-8.jpg",
-          "title": "No se que poner",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "image": "/images/Turismo/markahuamachuco/mrkhco8.jpg",
+          "title": "Contemplacion Historica",
+          "description": "Dedica un tiempo a simplemente contemplar la historia y el significado del lugar. Imagina cómo era la vida en esta antigua ciudadela y reflexiona sobre la importancia cultural y arqueológica de Marcahuamachuco."
         }
       ],
       "gastronomy": "",
@@ -216,17 +216,23 @@
       "titleGastronomia": "Gastronomia",
       "titleRecomendaciones": "Recomendaciones",
       "image": "/images/Turismo/wiracochapampa/wiracochapampa.jpg",
-      "hero": "/images/Turismo/wiracochapampa/wira.webp",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
+      "hero": "/images/Turismo/wiracochapampa/wiraa1.jpg",
+      "description": "Wiracochapampa es un sitio arqueológico situado en la región de Huamachuco, en la provincia de Sánchez Carrión, La Libertad, Perú. Conocido como 'La Ciudadela Sagrada', este complejo arqueológico es una muestra impresionante del ingenio y la arquitectura de las culturas preincaicas que habitaron la zona. Wiracochapampa se remonta al período preincaico y fue construido por las culturas que poblaron la región entre los años 300 y 1300 d.C. Esta ciudadela sagrada destaca por sus complejas estructuras y la planificación urbana que demuestra el alto nivel de organización social y política de sus antiguos habitantes.",
       "gallery": [
         {
           "route": "/images/Turismo/wiracochapampa/wira.webp"
         },
         {
-          "route": "/images/Turismo/wiracochapampa/wira1.png"
+          "route": "/images/Turismo/wiracochapampa/wira3.jpg"
         },
         {
-          "route": "/images/Turismo/wiracochapampa/wira2.webp"
+          "route": "/images/Turismo/wiracochapampa/wira1.webp"
+        },
+        {
+          "route": "/images/Turismo/wiracochapampa/wamanr1.jpg"
+        },
+        {
+          "route": "/images/Turismo/wiracochapampa/ruta-wira.jpg"
         },
         {
           "route": "/images/Turismo/wiracochapampa/wiracochapampa1.jpg"
@@ -239,26 +245,20 @@
         {
           "id": 1,
           "image": "/images/Turismo/wiracochapampa/wira2.webp",
-          "title": "Actividad 1",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "title": "Explorar estructuras",
+          "description": "Admira las diversas estructuras y plazas que conforman Wiracochapampa. Explora los templos, observatorios y áreas residenciales que conforman este complejo arqueológico. Camina por las terrazas y toma tiempo para apreciar la magnificencia y la belleza de las construcciones antiguas."
         },
         {
           "id": 2,
-          "image": "/images/Turismo/wiracochapampa/wira1.webp",
-          "title": "Actividad 2",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "image": "/images/Turismo/wiracochapampa/wiracochapampaa.jpg",
+          "title": "Fotografia",
+          "description": "Wiracochapampa ofrece impresionantes vistas panorámicas y oportunidades fotográficas únicas. Captura la majestuosidad de las estructuras y el entorno natural que rodea el sitio. Las vistas desde las alturas proporcionan escenas espectaculares para los amantes de la fotografía."
         },
         {
           "id": 3,
-          "image": "/images/Turismo/wiracochapampa/wira1.webp",
-          "title": "Actividad 3",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
-        },
-        {
-          "id": 4,
-          "image": "/images/Turismo/wiracochapampa/wira1.webp",
-          "title": "Actividad 4",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "image": "/images/Turismo/wiracochapampa/wamanr2.jpg",
+          "title": "Waman Raymi",
+          "description": "Se lleva a cabo en honor al waman (halcón o águila), un ave sagrada para las culturas andinas, considerada un símbolo de la libertad y la conexión con lo divino. La festividad tiene lugar durante el solsticio de invierno, específicamente alrededor del 21 de junio, momento en el que los antiguos pobladores andinos rendían homenaje al sol y a la naturaleza."
         }
       ],
       "gastronomy": "",
@@ -291,14 +291,14 @@
     },
     {
       "id": 3,
-      "slug": "huaylilas",
-      "titleTour": "Cerro Huaylillas",
+      "slug": "cushuro",
+      "titleTour": "Laguna Cushuro",
       "titleRecreative": "Actividades Recreativas",
       "titleGastronomia": "Gastronomia",
       "titleRecomendaciones": "Recomendaciones",
       "image": "/images/Turismo/huaylillas/huaylillas.jpeg",
-      "hero": "/images/Turismo/huaylillas/huaylillas1.jpg",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
+      "hero": "/images/Turismo/huaylillas/cushuro.jpg",
+      "description": "La Laguna Cushuro es un hermoso tesoro natural situado en la provincia de Sánchez Carrión, en la región de La Libertad, Perú. Esta laguna es un lugar mágico y único que cautiva a los visitantes con su belleza y su riqueza ecológica. Con su ubicación privilegiada en medio de los paisajes montañosos de Huamachuco, la Laguna Cushuro es un destino imperdible para los amantes de la naturaleza y los entusiastas del turismo sostenible. La Laguna Cushuro se encuentra a una altitud de aproximadamente 3,800 metros sobre el nivel del mar, lo que la convierte en un refugio natural rodeado de montañas y paisajes impresionantes. Lo que hace que esta laguna sea especial es la presencia de pequeñas esferas gelatinosas llamadas 'cushuros' que flotan en la superficie del agua. Estas esferas son producto de una reacción química entre minerales y algas presentes en la laguna, y son comestibles y consideradas nutritivas por los lugareños.",
       "gallery": [
         {
           "route": "/images/Turismo/huaylillas/huaylillas.jpg"
@@ -310,33 +310,39 @@
           "route": "/images/Turismo/huaylillas/huaylillas-pan.jpg"
         },
         {
-          "route": "/images/Turismo/huaylillas/huaylillas-pan2.jpg"
+          "route": "/images/Turismo/huaylillas/cushuro1.jpg"
+        },
+        {
+          "route": "/images/Turismo/huaylillas/chacu2.jpg"
+        },
+        {
+          "route": "/images/Turismo/huaylillas/huaylillas1.jpg"
         }
       ],
       "recreative": [
         {
           "id": 1,
-          "image": "/images/Turismo/huaylillas/huaylillas.jpeg",
-          "title": "Caminata",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "image": "/images/Turismo/huaylillas/caminata.jpg",
+          "title": "Senderismo",
+          "description": "Explora los alrededores de la laguna a través de caminatas cortas y moderadas. Pregunta a los lugareños o guías locales sobre las rutas de senderismo cercanas y disfruta de la flora y fauna de la zona."
         },
         {
           "id": 2,
-          "image": "/images/Turismo/huaylillas/huaylillas-pan.jpg",
+          "image": "/images/Turismo/huaylillas/escalar.jpg",
           "title": "Escalar",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "description": "Puedes tratar de escalar la montaña donde se encuentra una catarata para demostrar tus habilidades y poder tomarte fotografias en el intento, pero se recomienda tener mucho cuidado a la hora de realizar dicha accion."
         },
         {
           "id": 3,
-          "image": "/images/Turismo/huaylillas/huaylillas-pan2.jpg",
-          "title": "No se que poner",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "image": "/images/Turismo/huaylillas/chacu1.jpg",
+          "title": "Chacu",
+          "description": "Los pobladores se agrupan y forman un cerco humano para dirigir a las vicuñas hacia la cerca. Una vez que las vicuñas han sido conducidas a esta zona, se procede a esquilarlas para obtener su lana, conocida como 'fibra de oro', que es apreciada por su calidad."
         },
         {
           "id": 4,
-          "image": "/images/Turismo/huaylillas/huaylillas-pan2.jpg",
-          "title": "No se que poner",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "image": "/images/Turismo/huaylillas/paseo-bote.jpg",
+          "title": "Paseo en bote",
+          "description": "El paseo en bote tambien es una gran opcion para pasear y relajarse un momento, aunque, no es una actividad comun que se realize en el lugar, pero con los implementos adecuados se puede realizar con normalidad."
         }
       ],
       "gastronomy": "",
@@ -374,45 +380,66 @@
     {
       "id": 4,
       "slug": "yanasara",
-      "titleTour": "Yanasara",
+      "titleTour": "Aguas termales de Yanasara",
       "titleRecreative": "Actividades Recreativas",
       "titleGastronomia": "Gastronomia",
       "titleRecomendaciones": "Recomendaciones",
       "image": "/images/Turismo/yanasara/yanasara.jpeg",
       "hero": "/images/Turismo/yanasara/yanasara1.jpg",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
+      "description": "Estas Aguas Termales se encuentran a 2 480 m.s.n.m., ubicadas a 26 Km. de Huamachuco, lo que equivale a unos 45 minutos en movilidad por medio de una carretera asfaltada. Sus aguas tienen una temperatura de 40 °C.; de los análisis realizados se sabe que contienen Cloruro de sodio, Cloruro de Calcio, Sulfuro de Sodio, Hiposulfito de Soda y Hierro. Sus aguas son utilizadas con fines medicinales, especialmente para el tratamiento del reumatismo. Dentro de sus instalaciones cuenta con pozas privadas, piscina, duchas, vestidores, baños privados. Así mismo alrededor se brinda servicio de alimentación y hospedaje, para el completo disfrute de los visitantes locales, nacionales y extranjeros.",
       "gallery": [
         {
           "route": "/images/Turismo/yanasara/yanasara.jpeg"
         },
         {
-          "route": "/images/Turismo/yanasara/yanazara-aguas-termales.jpg"
+          "route": "/images/Turismo/yanasara/ingreso.jpg"
+        },
+        {
+          "route": "/images/Turismo/yanasara/entrada.jpg"
+        },
+        {
+          "route": "/images/Turismo/yanasara/yanasara1.jpg"
+        },
+        {
+          "route": "/images/Turismo/yanasara/yanasara6.jpg"
+        },
+        {
+          "route": "/images/Turismo/yanasara/piscina1.jpg"
+        },
+        {
+          "route": "/images/Turismo/yanasara/yanasara-pan.jpg"
         }
       ],
       "recreative": [
         {
           "id": 1,
-          "image": "/images/Turismo/yanasara/yanazara-aguas-termales.jpg",
+          "image": "/images/Turismo/yanasara/piscina.jpg",
           "title": "Natacion",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "description": "Yanasara cuenta con 3 piscinas, dos grandes para los adultos y una pequeña para los niños, para poder disfrutar de estas aguas calidas que son muy beneficiosas para la salud, sera una gran alternativa para escoger."
         },
         {
           "id": 2,
-          "image": "/images/Turismo/yanasara/yanazara-aguas-termales.jpg",
+          "image": "/images/Turismo/yanasara/campamento.jpg",
           "title": "Campamento",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "description": "Despues de haber disfrutado y recorrido los lugares de yanasara otra gran opcion es realizar una fogata y estar con los amigos alrededor de ella y contar sus historias bajo la luz de la luna."
         },
         {
           "id": 3,
-          "image": "/images/Turismo/yanasara/yanazara-aguas-termales.jpg",
+          "image": "/images/Turismo/yanasara/hacienda.jpg",
           "title": "Deporte",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "description": "Aparte de la natacion, como otros deportes recreativos tambien hay lugares para poder jugar futbol, volley, bascket, etc. una buena opcion para desestresarse y hacer actividad fisica."
         },
         {
           "id": 4,
-          "image": "/images/Turismo/yanasara/yanazara-aguas-termales.jpg",
-          "title": "Deporte",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "image": "/images/Turismo/yanasara/pozas.jpg",
+          "title": "Pozas privadas",
+          "description": "Tambien existen pozas privadas, las cuales son mas relajantes para aliviar el cuerpo de enfermedades debido a el agua que es rica en minerales como cloruro de calcio, de sodio, entre otros."
+        },
+        {
+          "id": 5,
+          "image": "/images/Turismo/yanasara/yanasara2.webp",
+          "title": "Fotografia",
+          "description": "Yanasara al ser un valle hermoso cuenta con lugares muy bellos para poder tomar fotografias ya sea al paisaje o tambien a nostros mismos, un buen lugar es subir al pequeño mirador para obtener una vista panoramica."
         }
       ],
       "gastronomy": [
@@ -471,22 +498,19 @@
     {
       "id": 5,
       "slug": "el-eden",
-      "titleTour": "El eden",
+      "titleTour": "El Eden",
       "titleRecreative": "Actividades Recreativas",
-      "titleGastronomia": "Gastronomia",
+      "titleGastronomia": "Gastronomia Local",
       "titleRecomendaciones": "Recomendaciones",
       "image": "/images/Turismo/eleden/el-eden.jpeg",
       "hero": "/images/Turismo/eleden/eden11.jpg",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam.",
+      "description": "El Edén es un impresionante destino turístico ubicado en la región de Huamachuco, en la provincia de Sánchez Carrión, La Libertad, Perú. Conocido como 'El Edén de las Orquídeas', este lugar paradisíaco es famoso por su exuberante vegetación, cascadas cristalinas y una gran variedad de orquídeas que lo convierten en un paraíso natural para los amantes de la naturaleza y el ecoturismo. Este destino mágico ofrece una combinación única de paisajes montañosos, ríos y vegetación exuberante. El Edén es especialmente reconocido por la abundancia de orquídeas que florecen en la zona, presentando una maravillosa exhibición de colores y formas. Además de las orquídeas, los visitantes pueden encontrar una gran diversidad de flora y fauna, incluyendo especies nativas de aves y animales.",
       "gallery": [
         {
           "route": "/images/Turismo/eleden/el-eden.jpeg"
         },
         {
-          "route": "/images/Turismo/eleden/eden.jpg"
-        },
-        {
-          "route": "/images/Turismo/eleden/eden-1.jpeg"
+          "route": "/images/Turismo/eleden/eden11.jpg"
         },
         {
           "route": "/images/Turismo/eleden/eden-2.jpeg"
@@ -498,27 +522,27 @@
       "recreative": [
         {
           "id": 1,
-          "image": "/images/Turismo/eleden/eden.jpg",
-          "title": "Actividad 1",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "image": "/images/Turismo/eleden/eden5.jpg",
+          "title": "Senderismo",
+          "description": "Explora los senderos naturales del Edén y adéntrate en la rica flora y fauna de la zona. Disfruta de caminatas tranquilas rodeado de hermosos paisajes montañosos y cascadas cristalinas."
         },
         {
           "id": 2,
-          "image": "/images/Turismo/eleden/el-eden.jpeg",
-          "title": "Actividad 2",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "image": "/images/Turismo/eleden/poza.jpg",
+          "title": "Baño en pozas",
+          "description": "Refréscate en las cristalinas aguas de las pozas del Edén. Disfruta de un baño en medio de la naturaleza y déjate llevar por la serenidad del entorno."
         },
         {
           "id": 3,
-          "image": "/images/Turismo/eleden/el-eden.jpeg",
-          "title": "Actividad 3",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "image": "/images/Turismo/eleden/eden4.jpg",
+          "title": "Fotografia",
+          "description": "Captura la belleza del Edén en fotografías. Las cascadas, las orquídeas y los paisajes montañosos ofrecen increíbles oportunidades fotográficas."
         },
         {
-          "id": 2,
-          "image": "/images/Turismo/eleden/el-eden.jpeg",
-          "title": "Actividad 4",
-          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur aspernatur aut qui, accusamus libero doloribus sed provident impedit alias laborum aliquam ipsum quod dolorum vitae placeat eveniet. Nostrum animi quis odit temporibus at dolorem molestias nihil dolor voluptatum aperiam."
+          "id": 4,
+          "image": "/images/Turismo/eleden/panoramica.jpg",
+          "title": "Picnic descanso",
+          "description": "Lleva un picnic y disfruta de un momento de relajación rodeado de la naturaleza. El Edén es un lugar perfecto para descansar y disfrutar de la tranquilidad."
         }
       ],
       "gastronomy": [
