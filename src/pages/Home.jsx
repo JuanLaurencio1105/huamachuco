@@ -6,6 +6,7 @@ import Layout from '../layouts/Layout'
 import Hero from '../components/Hero'
 import CardTour from '../components/CardTour'
 import DataCard from '../components/DataCard'
+import CardCustom from '../components/CardCustom'
 
 const Home = () => {
 
@@ -151,29 +152,38 @@ const Home = () => {
           </div>
           <div className='grid grid-cols-1 gap-4 w-full max-w-md mx-auto sm:grid-cols-2 sm:max-w-2xl md:max-w-full lg:grid-cols-4 lg:gap-6'>
             {costumbres.map((costumbre) => (
-              <div key={costumbre.id}
-                className='bg-white border border-slate-400 rounded-xl pb-4 overflow-hidden'>
-                <div className='overflow-hidden'>
-                  <Link>
-                    <img
-                      src={costumbre.image}
-                      alt={costumbre.title}
-                      className='w-full h-60 object-cover bg-center bg-cover rounded-t-xl hover:scale-110 transition-all duration-300'
-                    />
-                  </Link>
+              // <div key={costumbre.id}
+              //   className='bg-white border border-slate-400 rounded-xl pb-4 overflow-hidden'>
+              //   <div className='overflow-hidden'>
+              //     <Link 
+              //     to=''
+              //     >
 
-                </div>
-                <div className='px-4 py-2'>
-                  <h4>{costumbre.title}</h4>
-                  <p className='mt-4'>{costumbre.description}</p>
-                </div>
-                <div className='flex justify-center pt-4'>
-                  <Button
-                    type='primary'
-                    text='VER MAS'
-                  />
-                </div>
-              </div>
+              //       <img
+              //         src={costumbre.image}
+              //         alt={costumbre.title}
+              //         className='w-full h-60 object-cover bg-center bg-cover rounded-t-xl hover:scale-110 transition-all duration-300'
+              //       />
+              //     </Link>
+
+              //   </div>
+              //   <div className='px-4 py-2'>
+              //     <h4>{costumbre.title}</h4>
+              //     <p className='mt-4'>{costumbre.description}</p>
+              //   </div>
+              //   <div className='flex justify-center pt-4'>
+              //     <Button
+              //       type='primary'
+              //       text='VER MAS'
+              //     />
+              //   </div>
+              // </div>
+
+              <CardCustom 
+              onClick={scrollTop}
+              key={costumbre.id}
+              costumbre={costumbre}
+              />
             ))}
           </div>
           <div className='flex justify-center mt-8'>

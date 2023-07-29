@@ -1,3 +1,4 @@
+import CustomDetail from './components/Custom/CustomDetail'
 import Footer from './components/Footer'
 import ToursDetail from './components/Tour/ToursDetail'
 import Header from './layouts/Header'
@@ -19,6 +20,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/turismo' element={<Turism />} />
         <Route path='/turismo/:slug' element={<ToursDetail />} />
+        <Route path='/costumbre/:slug' element={<CustomDetail />} />
         <Route path='/nosotros' element={<AboutUs />} />
         <Route path='/gastronomia' element={<Gastronomy />} />
         <Route path='/contacto' element={<Contact />} />
