@@ -610,31 +610,235 @@
   "costumbre": [
     {
       "id": 1,
-      "slug": "",
+      "slug": "parada-gallardete",
       "title": "Festival Parada del Gallardete Huamachuco",
       "image": "/images/Costumbres/gallardete.jpg",
-      "description": "Se realiza con el fin de dar inicio a la fiesta patronal en honor a la virgen de la alta gracia."
+      "description": "Se realiza con el fin de dar inicio a la fiesta patronal en honor a la virgen de la alta gracia.",
+      "background": "https://detrujillo.com/wp-content/uploads/2018/07/inicia-fiesta-patronal-huamachuco-tradicional-parada-gallardete.jpg",
+      "subtitleOne": "Celebración de origen ancestral",
+      "textSubOne": "Los orígenes de la Parada del Gallardete se remontan a la cultura preincaica Huamachuco, cuyos habitantes plantaban un árbol como culto a la fertilidad y a la renovación cíclica de la vida. Este acto ritual expresa también la relación del mundo andino con la naturaleza, percibida como ente divino y, por lo tanto, da cuenta de una concepción particular de la vida.",
+      "video": "/videos/parada_gallardete.mp4",
+      "gallery": [
+        {
+          "source": "https://elcomercio.pe/resizer/01SJ0wkkPoN21HBP_8kYusY-_CQ=/1200x900/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/WLFR4K2C6ZHZNP7YCMJSHLNEFA.jpg"
+        },
+        {
+          "source": "https://n60.pe/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-29-at-6.56.40-PM.jpeg"
+        },
+        {
+          "source": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2018/07/30/000521946W.jpg"
+        }
+      ],
+      "subtitleTwo": "Patrimonio Cultural de la Nación",
+      "textSubTwo": "La Parada del Gallardete y la festividad en honor de la Virgen de la Alta Gracia de la provincia de Sánchez Carrión fueron declarados Patrimonio Cultural de la Nación en el año 2011, dado que se reconocen ambos eventos, unidos indesligablemente, como una poderosa fuente de identidad de esta provincia del departamento de La Libertad.",
+      "hotel": [
+        {
+          "id": 1,
+          "name": "Hotel Santa María",
+          "addres": "Jr. Addres N° 72",
+          "image": "https://www.ahstatic.com/photos/a7l9_ho_00_p_1024x768.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Hotel El Paisano",
+          "addres": "Jr. Addres N° 72",
+          "image": "https://static.hosteltur.com/app/public/uploads/img/articles/2013/09/01/M_5b14ea6fb7f86_shutterstock_HOTEL.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Hotel Virgen de Alta Gracia",
+          "addres": "Av. Addres N° 72",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/34193586.jpg?k=0429979a519dab5376d0ab21d53c8a3ef40cd1ade09bb752f1c49ec4d719446e&o=&hp=1"
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 1,
+          "description": "Consulta el estado de las Carreteras, para que puedas realizar tu viaje sin problemas."
+        },
+        {
+          "id": 2,
+          "description": "Cumple con los procedimientos establecidos por los sitios turísticos para realizar la visita."
+        },
+        {
+          "id": 3,
+          "description": "No faltar."
+        }
+      ]
     },
     {
       "id": 2,
-      "slug": "",
+      "slug": "contradanza",
       "title": "Danza de nuestra Tierra 'La Contradanza'.",
       "image": "/images/Costumbres/contradanzanina2022.jpg",
-      "description": "Se realiza con el fin de dar inicio a la fiesta patronal en honor a la virgen de la alta gracia."
+      "description": "Es una danza masculina, que bailan incansablemente durante todos los días y noches de la fiesta de la Virgen De la Alta Gracia, son los primeros en llegar y los últimos en retirarse.",
+      "background": "/images/Costumbres/contradanza_hero.jpg",
+      "subtitleOne": "Origenes de la Contradanza",
+      "textSubOne": "Contradanza europea arraigada en Huamachuco tras la conquista española. Sacerdotes agustinos fundaron la ciudad en 1551, estableciendo la Virgen de la Alta Gracia como patrona local. Festividades locales exigían danzas de comparsas en su honor. La Contradanza se ejecuta en la Fiesta de Santiago El Mayor y la Fiesta de la Virgen de las Mercedes, con comparsas mixtas.",
+      "video": "https://www.youtube.com/watch?v=0ettQGQ5XqM",
+      "gallery": [
+        {
+          "source": "/images/Costumbres/contradanza_1.jpg"
+        },
+        {
+          "source": "/images/Costumbres/contradanza_2.jpg"
+        },
+        {
+          "source": "/images/Costumbres/contradanza_3.jpg"
+        }
+      ],
+      "subtitleTwo": "Vestimenta",
+      "textSubTwo": "La vestimenta de la Contradanza muestra su original colonial tardío en el uso de las prendas derivadas de la moda del siglo XVIII, tal como se presenta en una comparación con los dibujos del Tratado del cronista español Baltazar Martínez de Compañón, que incluye a población de Huamachuco. Esta adopción fue consecuencia de la imposición de la vestimenta española debido a las rebeliones indígenas que culminaron con la liderada por Túpac Amaru II (1777-1781), como un modo de reprimir toda forma de resistencia cultural. Este argumento indicaría que la Contradanza fue adoptada por la población de Huamachuco a partir de ese periodo.",
+      "hotel": [
+        {
+          "id": 1,
+          "name": "Hotel Santa María",
+          "addres": "Jr. Addres N° 72",
+          "image": "https://www.ahstatic.com/photos/a7l9_ho_00_p_1024x768.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Hotel El Paisano",
+          "addres": "Jr. Addres N° 72",
+          "image": "https://static.hosteltur.com/app/public/uploads/img/articles/2013/09/01/M_5b14ea6fb7f86_shutterstock_HOTEL.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Hotel Virgen de Alta Gracia",
+          "addres": "Av. Addres N° 72",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/34193586.jpg?k=0429979a519dab5376d0ab21d53c8a3ef40cd1ade09bb752f1c49ec4d719446e&o=&hp=1"
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 1,
+          "description": "Consulta el estado de las Carreteras, para que puedas realizar tu viaje sin problemas."
+        },
+        {
+          "id": 2,
+          "description": "Cumple con los procedimientos establecidos por los sitios turísticos para realizar la visita."
+        },
+        {
+          "id": 3,
+          "description": "No faltar."
+        }
+      ]
     },
     {
       "id": 3,
-      "slug": "",
+      "slug": "danza-virgen-altagracia",
       "title": "Danza en Honor a la Virgen de la Alta Gracia.",
       "image": "/images/Costumbres/virgen.jpg",
-      "description": "Se realiza con el fin de dar inicio a la fiesta patronal en honor a la virgen de la alta gracia."
+      "description": "Se realiza con el fin de dar inicio a la fiesta patronal en honor a la virgen de la alta gracia.",
+      "background": "/images/Costumbres/contradanza_hero.jpg",
+      "subtitleOne": "Origenes de la Contradanza",
+      "textSubOne": "Contradanza europea arraigada en Huamachuco tras la conquista española. Sacerdotes agustinos fundaron la ciudad en 1551, estableciendo la Virgen de la Alta Gracia como patrona local. Festividades locales exigían danzas de comparsas en su honor. La Contradanza se ejecuta en la Fiesta de Santiago El Mayor y la Fiesta de la Virgen de las Mercedes, con comparsas mixtas.",
+      "video": "https://www.youtube.com/watch?v=0ettQGQ5XqM",
+      "gallery": [
+        {
+          "source": "/images/Costumbres/contradanza_1.jpg"
+        },
+        {
+          "source": "/images/Costumbres/contradanza_2.jpg"
+        },
+        {
+          "source": "/images/Costumbres/contradanza_3.jpg"
+        }
+      ],
+      "subtitleTwo": "Vestimenta",
+      "textSubTwo": "La vestimenta de la Contradanza muestra su original colonial tardío en el uso de las prendas derivadas de la moda del siglo XVIII, tal como se presenta en una comparación con los dibujos del Tratado del cronista español Baltazar Martínez de Compañón, que incluye a población de Huamachuco. Esta adopción fue consecuencia de la imposición de la vestimenta española debido a las rebeliones indígenas que culminaron con la liderada por Túpac Amaru II (1777-1781), como un modo de reprimir toda forma de resistencia cultural. Este argumento indicaría que la Contradanza fue adoptada por la población de Huamachuco a partir de ese periodo.",
+      "hotel": [
+        {
+          "id": 1,
+          "name": "Hotel Santa María",
+          "addres": "Jr. Addres N° 72",
+          "image": "https://www.ahstatic.com/photos/a7l9_ho_00_p_1024x768.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Hotel El Paisano",
+          "addres": "Jr. Addres N° 72",
+          "image": "https://static.hosteltur.com/app/public/uploads/img/articles/2013/09/01/M_5b14ea6fb7f86_shutterstock_HOTEL.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Hotel Virgen de Alta Gracia",
+          "addres": "Av. Addres N° 72",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/34193586.jpg?k=0429979a519dab5376d0ab21d53c8a3ef40cd1ade09bb752f1c49ec4d719446e&o=&hp=1"
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 1,
+          "description": "Consulta el estado de las Carreteras, para que puedas realizar tu viaje sin problemas."
+        },
+        {
+          "id": 2,
+          "description": "Cumple con los procedimientos establecidos por los sitios turísticos para realizar la visita."
+        },
+        {
+          "id": 3,
+          "description": "No faltar."
+        }
+      ]
     },
     {
       "id": 4,
-      "slug": "",
+      "slug": "festividada-sfa",
       "title": "Festividad en Honor a San Francisco de Asis.",
       "image": "/images/Costumbres/negritos.jpg",
-      "description": "Se realiza con el fin de dar inicio a la fiesta patronal en honor a la virgen de la alta gracia."
+      "description": "Se realiza con el fin de dar inicio a la fiesta patronal en honor a la virgen de la alta gracia.",
+      "background": "/images/Costumbres/sanfa_hero.jpg",
+      "subtitleOne": "Origenes de la Contradanza",
+      "textSubOne": "Contradanza europea arraigada en Huamachuco tras la conquista española. Sacerdotes agustinos fundaron la ciudad en 1551, estableciendo la Virgen de la Alta Gracia como patrona local. Festividades locales exigían danzas de comparsas en su honor. La Contradanza se ejecuta en la Fiesta de Santiago El Mayor y la Fiesta de la Virgen de las Mercedes, con comparsas mixtas.",
+      "video": "/videos/festividad_sanfrancisco.mp4",
+      "gallery": [
+        {
+          "source": "/images/Costumbres/contradanza_1.jpg"
+        },
+        {
+          "source": "/images/Costumbres/contradanza_2.jpg"
+        },
+        {
+          "source": "/images/Costumbres/contradanza_3.jpg"
+        }
+      ],
+      "subtitleTwo": "Vestimenta",
+      "textSubTwo": "La vestimenta de la Contradanza muestra su original colonial tardío en el uso de las prendas derivadas de la moda del siglo XVIII, tal como se presenta en una comparación con los dibujos del Tratado del cronista español Baltazar Martínez de Compañón, que incluye a población de Huamachuco. Esta adopción fue consecuencia de la imposición de la vestimenta española debido a las rebeliones indígenas que culminaron con la liderada por Túpac Amaru II (1777-1781), como un modo de reprimir toda forma de resistencia cultural. Este argumento indicaría que la Contradanza fue adoptada por la población de Huamachuco a partir de ese periodo.",
+      "hotel": [
+        {
+          "id": 1,
+          "name": "Hotel Santa María",
+          "addres": "Jr. Addres N° 72",
+          "image": "https://www.ahstatic.com/photos/a7l9_ho_00_p_1024x768.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Hotel El Paisano",
+          "addres": "Jr. Addres N° 72",
+          "image": "https://static.hosteltur.com/app/public/uploads/img/articles/2013/09/01/M_5b14ea6fb7f86_shutterstock_HOTEL.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Hotel Virgen de Alta Gracia",
+          "addres": "Av. Addres N° 72",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/34193586.jpg?k=0429979a519dab5376d0ab21d53c8a3ef40cd1ade09bb752f1c49ec4d719446e&o=&hp=1"
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 1,
+          "description": "Consulta el estado de las Carreteras, para que puedas realizar tu viaje sin problemas."
+        },
+        {
+          "id": 2,
+          "description": "Cumple con los procedimientos establecidos por los sitios turísticos para realizar la visita."
+        },
+        {
+          "id": 3,
+          "description": "No faltar."
+        }
+      ]
     }
   ],
   "gastronomia": {
