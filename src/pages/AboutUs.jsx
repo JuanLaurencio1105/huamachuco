@@ -6,16 +6,21 @@ import DataCard from '../components/DataCard'
 import FormInput from '../components/Form/FormInput'
 import TextArea from '../components/Form/TextArea'
 import Button from '../components/Button'
+import Head from '../components/Head'
 
 const AboutUs = () => {
 
   const [nosotros] = useState(datosJson.slides)
-  const slideNosotros = nosotros.slice(6)
+  // const slideNosotros = nosotros.slice(6)
   return (
     <div className='relative overflow-hidden'>
-      <div>
+      <Head
+        image={`/images/Turismo/huamachuco/campnoche.jpg`}
+        title='SOBRE NOSOTROS'
+      />
+      {/* <div>
         <Slide data={slideNosotros} />
-      </div>
+      </div> */}
       <Layout>
         <article className='mt-8 border border-slate-400 rounded-2xl md:flex sm:mt-12 lg:my-20'>
           <div className='w-full'>
