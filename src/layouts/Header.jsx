@@ -76,8 +76,8 @@ const Header = () => {
               onClick={handleClickFunctions}
             />
             <NavLink
-              to='/gastronomia'
-              text='Gastronomia'
+              to='/restaurantes'
+              text='Restaurantes'
               icon={<IoFastFoodOutline size={23} />}
               onClick={handleClickFunctions}
             />

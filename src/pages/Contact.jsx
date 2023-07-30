@@ -5,6 +5,7 @@ import Layout from '../layouts/Layout'
 import FormInput from '../components/Form/FormInput'
 import TextArea from '../components/Form/TextArea'
 import Button from '../components/Button'
+import Head from '../components/Head'
 
 const Contact = () => {
 
@@ -12,7 +13,11 @@ const Contact = () => {
   const slideContact = data.slice(8)
   return (
     <>
-      <Slide data={slideContact} />
+    <Head
+    image={`/images/Turismo/huamachuco/plazanoche.jpg`}
+    title='CONTACTO'
+    />
+      {/* <Slide data={slideContact} /> */}
       <div className='lg:px-10 xl:px-20'>
         <Layout>
           <div className='mt-10 md:flex justify-center items-center gap-6'>
