@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import Slide from '../layouts/Slide'
 import datosJson from '../../public/datos.json'
 import Layout from '../layouts/Layout'
 import DataCard from '../components/DataCard'
 import CardRestaurant from '../components/CardRestaurant'
+import Head from '../components/Head'
 import { Autoplay, Navigation, Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
@@ -11,28 +11,25 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/autoplay'
 import 'swiper/css/effect-creative'
-import Head from '../components/Head'
 
 
 const Gastronomy = () => {
-  const [data] = useState(datosJson.slides)
   const [platos] = useState(datosJson.gastronomia.platos)
   const [bebidas] = useState(datosJson.gastronomia.bebidas)
   const [restaurantes] = useState(datosJson.gastronomia.restaurantes)
 
-  const slideGastronomy = data.slice(7)
 
   const scrollTop = () => {
     window.scrollTo(0,0)
   }
   return (
     <div>
-      <Head 
+      <Head
       image={`/images/Gastronomia/tradicional6.jpg`}
       title='GASTRONOMIA'
       />
       <Layout>
-        <div>
+        <div className='my-8'>
           <h2>RESTAURANTES DE HUAMACHUCO</h2>
           <div className='grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-6 xl:grid-cols-4'>
             {restaurantes.map((restaurant, index) => (
@@ -43,7 +40,7 @@ const Gastronomy = () => {
             ))}
           </div>
         </div>
-        <div className='my-10 flex flex-col gap-4 lg:px-20'>
+        <div className='mt-20 mb-4 flex flex-col gap-4 lg:px-20'>
           <h2>PLATOS TIPICOS DE HUAMACHUCO</h2>
           <span className='indent-4'>La base de la dieta en Huamachuco gira en torno a los alimentos nativos de la región, como papas, maíz, quinua y tubérculos, que son abundantes en los campos cultivados de la zona. Estos productos son la base de muchos platos y acompañamientos.</span>
         </div>
@@ -60,7 +57,6 @@ const Gastronomy = () => {
                 },
                 1024: {
                   slidesPerView: 3,
-                  // loop: false
                 }
               }}
               modules={[Navigation, Pagination, Autoplay]}
@@ -81,7 +77,7 @@ const Gastronomy = () => {
             </Swiper>
           </div>
         </div>
-        <div className='mt-10 flex flex-col gap-4 lg:px-20'>
+        <div className='mt-20 mb-4 flex flex-col gap-4 lg:px-20'>
           <h2>POSTRES Y BEBIDAS DE HUAMACHUCO</h2>
           <p className='indent-4'>En Huamachuco, al igual que en otras regiones de Perú, encontrarás una variedad de postres y bebidas deliciosas y tradicionales.</p>
         </div>
@@ -98,7 +94,6 @@ const Gastronomy = () => {
                 },
                 1024: {
                   slidesPerView: 3,
-                  // loop: false
                 }
               }}
               modules={[Navigation, Pagination, Autoplay]}

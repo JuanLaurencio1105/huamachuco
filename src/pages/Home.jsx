@@ -1,18 +1,19 @@
 import React, { useState } from 'react'
 import Button from '../components/Button'
-import { Link } from 'react-router-dom'
 import datosJson from '../../public/datos.json'
 import Layout from '../layouts/Layout'
 import Hero from '../components/Hero'
 import CardTour from '../components/CardTour'
 import DataCard from '../components/DataCard'
 import CardCustom from '../components/CardCustom'
+import CardHotel from '../components/hotel/CardHotel'
 
 const Home = () => {
 
   const [data] = useState(datosJson.turismo)
   const [costumbres] = useState(datosJson.costumbre)
   const [gastronomia] = useState(datosJson.gastronomia.platos)
+  const [hoteles] = useState(datosJson.Hoteles)
   const [toggleTab, setToggleTab] = useState(0)
   const showData = data.slice(0, 3)
   const showPlato = gastronomia.slice(0, 3)
@@ -66,8 +67,10 @@ const Home = () => {
                 <p className='font-semibold lg:text-xl'>El origen del nombre de esta ciudad proviene de dos palabras Quechuas: Waman, que significa halcón, y Chuco que significa gorro o sombrero; Es decir la tierra de los "Hombres con gorro de Halcón". Otro Plausible origen del nombre es que proviene de un hibrido de dos lenguas: Kulli y el Quechua</p>
                 <div className='flex justify-center'>
                   <Button
+                    to='/huamachuco'
                     type='primary'
                     text='Ver Más'
+                    onClick={scrollTop}
                   />
                 </div>
               </div>
@@ -78,7 +81,7 @@ const Home = () => {
           toggleTab === 1 && (
             <>
               <img className='w-full object-cover bg-center h-full'
-                src="/images/Turismo/huamachuco/plaza-pan.jpeg"
+                src="/images/Turismo/huamachuco/glorieta.jpg"
                 alt="Imagen de MarkaHuamachuco"
               />
               <div className='absolute top-0 right-0 z-10 bg-black bg-opacity-70 h-full max-w-lg px-6 flex flex-col gap-4 sm:max-w-md md:px-10 sm:gap-6 md:max-w-lg lg:gap-10 lg:max-w-2xl'>
@@ -88,8 +91,10 @@ const Home = () => {
                 <p className='font-semibold lg:text-xl'>Visitar esta hermosa ciudad es una gran opcion para descubrir y disfrutar de todos los sitios turisticos que ofrecen sus bellos paisajes de esta tierra del ande liberteño, donde disfrutaras mucho la estadia y comprender sobre sus culturas y aventurarte a lugares nuevos.</p>
                 <div className='flex justify-center'>
                   <Button
+                    to='/turismo'
                     type='primary'
                     text='Ver Más'
+                    onClick={scrollTop}
                   />
                 </div>
               </div>
@@ -110,8 +115,10 @@ const Home = () => {
                 <p className='font-semibold lg:text-xl'>Huamachuco tambien te ofrece diferentes platos tipicos de nuestra tierra para disfrutar y compartir con la familia, como la Pachamanca, Picante de cuy, Cuy Chactado, Shambar, Chicharron con mote, trucha frita, etc. Es un buen destino para degustar de la gastronomia que ofrece esta ciudad y alrededores.</p>
                 <div className='flex justify-center'>
                   <Button
+                    to='/restaurantes'
                     type='primary'
                     text='Ver Más'
+                    onClick={scrollTop}
                   />
                 </div>
               </div>
@@ -152,37 +159,10 @@ const Home = () => {
           </div>
           <div className='grid grid-cols-1 gap-4 w-full max-w-md mx-auto sm:grid-cols-2 sm:max-w-2xl md:max-w-full lg:grid-cols-4 lg:gap-6'>
             {costumbres.map((costumbre) => (
-              // <div key={costumbre.id}
-              //   className='bg-white border border-slate-400 rounded-xl pb-4 overflow-hidden'>
-              //   <div className='overflow-hidden'>
-              //     <Link 
-              //     to=''
-              //     >
-
-              //       <img
-              //         src={costumbre.image}
-              //         alt={costumbre.title}
-              //         className='w-full h-60 object-cover bg-center bg-cover rounded-t-xl hover:scale-110 transition-all duration-300'
-              //       />
-              //     </Link>
-
-              //   </div>
-              //   <div className='px-4 py-2'>
-              //     <h4>{costumbre.title}</h4>
-              //     <p className='mt-4'>{costumbre.description}</p>
-              //   </div>
-              //   <div className='flex justify-center pt-4'>
-              //     <Button
-              //       type='primary'
-              //       text='VER MAS'
-              //     />
-              //   </div>
-              // </div>
-
-              <CardCustom 
-              onClick={scrollTop}
-              key={costumbre.id}
-              costumbre={costumbre}
+              <CardCustom
+                onClick={scrollTop}
+                key={costumbre.id}
+                costumbre={costumbre}
               />
             ))}
           </div>
@@ -211,13 +191,27 @@ const Home = () => {
           </div>
           <div className='flex justify-center mt-8'>
             <Button
+              to='/restaurantes'
               type='primary'
               text='VER MAS PLATOS'
+              onClick={scrollTop}
             />
           </div>
         </section>
       </Layout>
-
+      <div className='bg-white mt-12 pt-4 pb-16'>
+        <Layout>
+          <h2>HOTELES MAS POPULARES</h2>
+          <div className='grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-6 xl:grid-cols-4'>
+            {hoteles.map((hotel, index) => (
+              <CardHotel
+                key={index + 1}
+                data={hotel}
+              />
+            ))}
+          </div>
+        </Layout>
+      </div>
     </div>
   )
 }

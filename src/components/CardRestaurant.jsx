@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const CardRestaurant = ({ data, onClick }) => {
 
   const scrollTop = () => {
-    window.scrollTo(0,0)
+    window.scrollTo(0, 0)
   }
   return (
     <article className='border border-slate-400 w-full bg-white overflow-hidden flex flex-col mt-6 sm:flex-row md:flex-col lg:flex-row xl:flex-col'>
@@ -36,18 +36,22 @@ const CardRestaurant = ({ data, onClick }) => {
             </span>
             <p>{data.address}</p>
           </li>
-          <li className='flex items-center gap-1'>
-            <span>
-              <FiPhone size={20} />
-            </span>
-            <p>{data.phone}</p>
-          </li>
+          {
+            data.phone !== "" && (
+              <li className='flex items-center gap-1'>
+                <span>
+                  <FiPhone size={20} />
+                </span>
+                <p>{data.phone}</p>
+              </li>
+            )
+          }
         </ul>
         <div className='flex justify-center mb-2'>
           <Button
-          type='primary'
-          onClick={scrollTop}
-          to={`/restaurantes/${data.slug}`}
+            type='primary'
+            onClick={scrollTop}
+            to={`/restaurantes/${data.slug}`}
           >
             Ver Mas
           </Button>
