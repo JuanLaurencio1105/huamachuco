@@ -50,10 +50,7 @@ const Hero = () => {
             className='h-screen w-screen bg-cover bg-center flex items-center justify-center min-h-[550px] clip-path'
             style={{ backgroundImage: `url(${slide.imageUrl})` }}
           >
-            <div className='absolte top-0 w-screen h-screen bg-black bg-opacity-20'>
-
-            </div>
-
+            <div className='absolte top-0 w-screen h-screen bg-black bg-opacity-20 min-h-[550px]'></div>
           </div>
 
         </SwiperSlide>

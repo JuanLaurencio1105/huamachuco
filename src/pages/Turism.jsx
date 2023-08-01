@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Layout from '../layouts/Layout'
 import Slide from '../layouts/Slide'
 import datosJson from '../../public/datos.json'
-// import datosJson from '/public/datos.json'
 import CardTour from '../components/CardTour'
 
 const Turism = () => {
@@ -13,7 +12,7 @@ const Turism = () => {
     window.scrollTo(0,0)
   }
 
-  const turismoData = turismo.slice(0, 2)
+  const turismoData = turismo.slice(0, 6)
   return (
     <div className='relative overflow-hidden'>
       <Slide data={turismoData} />

@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         'blue' : '#0072A9',
-        'blue-two': '#2270E2'
+        'blue-two': '#2270E2',
+        'yellow': '#FFB500'
       },
       backgroundColor:['responsive', 'hover', 'focus', 'menu-open'],
     },

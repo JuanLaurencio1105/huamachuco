@@ -1,43 +1,39 @@
-import React, { useState } from 'react'
-import Slide from '../layouts/Slide'
-import datosJson from '../../public/datos.json'
 import Layout from '../layouts/Layout'
 import DataCard from '../components/DataCard'
 import FormInput from '../components/Form/FormInput'
 import TextArea from '../components/Form/TextArea'
 import Button from '../components/Button'
+import Head from '../components/Head'
 
 const AboutUs = () => {
 
-  const [nosotros] = useState(datosJson.slides)
-  const slideNosotros = nosotros.slice(2)
   return (
     <div className='relative overflow-hidden'>
-      <div>
-        <Slide data={slideNosotros} />
-      </div>
+      <Head
+        image={`/images/Turismo/huamachuco/campnoche.jpg`}
+        title='SOBRE NOSOTROS'
+      />
       <Layout>
         <article className='mt-8 border border-slate-400 rounded-2xl md:flex sm:mt-12 lg:my-20'>
           <div className='w-full'>
             <img
-              src="/images/Turismo/huamachuco/hco-pan-1.jpg"
-              alt="Altura Huamachuco"
+              src="/images/Turismo/huamachuco/plazaa1.jpg"
+              alt="Huamachuco"
               className='rounded-t-xl w-full h-48 bg-center bg-cover object-cover md:rounded-t-none md:rounded-l-2xl md:h-full md:max-h-[450px] lg:max-h-[320px] lg:rounded-l-2xl'
             />
           </div>
-          <div className='flex flex-col items-start justify-center bg-white py-2 px-4 rounded-b-xl md:p-4 md:rounded-b-none md:rounded-r-2xl lg:w-full'>
-            <p className='lg:tracking-wider'>Somos una pagina web que busca impulsar el turismo en la ciudad de Huamachuco, en la que brindamos informacion sobre la cultura, tradicion y gastronomia de esta tierra del ande liberteño.
-              Somos una pagina web que busca impulsar el turismo en la ciudad de Huamachuco, en la que brindamos informacion sobre la cultura, tradicion y gastronomia de esta tierra del ande liberteño.
+          <div className='flex flex-col items-start justify-center bg-white py-2 px-4 rounded-b-xl md:p-4 md:rounded-b-none md:rounded-r-2xl lg:w-full lg:px-10'>
+            <p className='lg:tracking-wider'>¡Bienvenidos a la Ciudad de Huamachuco! Somos una plataforma dedicada a mostrar la belleza y encanto de la ciudad de Huamachuco, ubicada en la región de La Libertad, Perú. Nuestra pasión por la cultura, la naturaleza y el turismo sostenible nos ha llevado a crear esta página web para compartir con el mundo todo lo que Huamachuco tiene para ofrecer.
             </p>
             <div className='mt-3 lg:mt-6'>
               <ul className='space-y-2'>
                 <li>
                   <span className='border-l-2 border-l-blue mr-2'></span>
-                  non pulvinar neque laoreet suspendisse
+                  Compromiso con el turismo sostenible
                 </li>
                 <li>
                   <span className='border-l-2 border-l-blue mr-2'></span>
-                  non pulvinar neque laoreet suspendisse
+                  Te invitamos a formar parte de esta aventura
                 </li>
               </ul>
             </div>
@@ -50,12 +46,12 @@ const AboutUs = () => {
             <DataCard
               image='/images/montaña.jpg'
               title='MISION'
-              text='Somos una pagina web que busca impulsar el turismo en la ciudad de Huamachuco, en la que brindamos informacion sobre la cultura, tradicion y gastronomia de esta tierra del ande liberteño.'
+              text='Nuestra misión es promover y difundir la riqueza cultural, histórica y natural de Huamachuco, brindando a los visitantes una experiencia enriquecedora y auténtica. Buscamos resaltar la identidad local, preservar el patrimonio y fomentar un turismo responsable que beneficie a la comunidad y promueva la conservación del entorno.'
             />
             <DataCard
               image='/images/Vinoculares.jpg'
               title='VISION'
-              text='Somos una pagina web que busca impulsar el turismo en la ciudad de Huamachuco, en la que brindamos informacion sobre la cultura, tradicion y gastronomia de esta tierra del ande liberteño.'
+              text='Nos esforzamos por convertirnos en la principal fuente de información y guía para quienes deseen descubrir los tesoros escondidos de Huamachuco. Aspiramos a que nuestra página web sea reconocida por su calidad y compromiso con el turismo sostenible, y que inspire a más personas a visitar y apreciar la magia que esta ciudad tiene para ofrecer.'
             />
           </section>
         </Layout>
@@ -88,7 +84,7 @@ const AboutUs = () => {
               <h2>CONTACTANOS</h2>
             </div>
             <div className='flex flex-col justify-center items-center gap-6 mt-6 h-full sm:flex-row sm:justify-between lg:gap-10'>
-              <form className='w-full bg-blue rounded-xl border border-black p-4'>
+              <form className='w-full bg-blue rounded-xl border border-black py-4 px-6'>
                 <div className='flex flex-col gap-4 justify-center items-center'>
                   <FormInput
                     type='text'

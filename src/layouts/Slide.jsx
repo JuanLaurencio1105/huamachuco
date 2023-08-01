@@ -1,10 +1,10 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay, EffectFade } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/autoplay'
 import 'swiper/css/effect-fade'
-
 
 const Slide = ({ data }) => {
 
@@ -12,13 +12,14 @@ const Slide = ({ data }) => {
     <Swiper
       spaceBetween={50}
       slidesPerView={1}
-      // autoplay={{ delay: 8000, disableOnInteraction: 'false' }}
-      // modules={[Autoplay]}
+      effect={'fade'}
+      autoplay={{ delay: 5000, disableOnInteraction: false }}
+      modules={[Autoplay, EffectFade]}
       loop='true'
     >
-      {data.map((slide) => (
+      {data.map((slide, index) => (
         <SwiperSlide
-          key={slide.id}
+          key={index + 1}
         >
           <div
             className='h-[400px] w-full object-fill bg-cover bg-center clip-path'
