@@ -3,6 +3,7 @@ import NavLink from '../NavBar/NavLink'
 import { AiOutlineContacts, AiOutlineHome, AiOutlineMenu } from 'react-icons/ai'
 import { HiUserGroup } from 'react-icons/hi'
 import { IoFastFoodOutline } from 'react-icons/io5'
+import { MdClose } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 import Button from '../components/Button'
 
@@ -19,7 +20,7 @@ const Header = () => {
   }
 
   const handleScrollTop = () => {
-    window.scrollTo(0,0)
+    window.scrollTo(0, 0)
   }
 
   const hideNavBar = () => {
@@ -51,7 +52,11 @@ const Header = () => {
           type='menu'
           onClick={handleClick}
         >
-          <AiOutlineMenu size={25} />
+          {isOpen ? (
+            <MdClose size={25} />
+          ) : (
+            <AiOutlineMenu size={25} />
+          )}
         </Button>
       </div>
       <nav className={`relative w-full ${isOpen ? 'flex' : 'hidden'} xl:flex`}>

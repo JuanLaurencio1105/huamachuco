@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom'
 import datosJson from '../../../public/datos.json'
 import Layout from '../../layouts/Layout'
 import DataCard from '../DataCard'
+import Frame from '../Frame'
+import Head from '../Head'
 import { BsSnow } from 'react-icons/bs'
 import { BiMap } from 'react-icons/bi'
 import { MdOutlineTour } from 'react-icons/md'
@@ -14,25 +16,17 @@ import 'swiper/css/pagination'
 import 'swiper/css/autoplay'
 import 'swiper/css/effect-fade'
 import 'swiper/css/effect-cards'
-import Frame from '../Frame'
-import Head from '../Head'
 
 const ToursDetail = () => {
   const { slug } = useParams()
 
   const [data] = useState(datosJson.turismo)
   const tours = data.find((tour) => tour.slug === slug)
-  console.log(tours.arrive.point)
   return (
     <>
       <Head
         image={tours.hero}
       />
-      {/* <div
-        className='h-[400px] w-full object-fill bg-cover bg-center clip-path'
-        style={{ backgroundImage: `url(${tours.hero})` }}
-      >
-      </div> */}
       <Layout>
         <h2>{tours?.titleTour?.toUpperCase()}</h2>
         <div className='w-full flex flex-col gap-4 mt-6 xl:flex-row'>

@@ -1,7 +1,11 @@
-import { useParams } from 'react-router-dom'
+import Head from '../Head'
 import datosJson from '../../../public/datos.json'
-import { useState } from 'react'
 import Layout from '../../layouts/Layout'
+import { useState } from 'react'
+import { useParams } from 'react-router-dom'
+import { BiMap } from 'react-icons/bi'
+import { FiPhone } from 'react-icons/fi'
+import { BsCheck2, BsClockHistory } from 'react-icons/bs'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules'
 import 'swiper/css'
@@ -10,10 +14,6 @@ import 'swiper/css/pagination'
 import 'swiper/css/autoplay'
 import 'swiper/css/effect-fade'
 import 'swiper/css/effect-cards'
-import { BsCheck2, BsClockHistory } from 'react-icons/bs'
-import { BiMap } from 'react-icons/bi'
-import { FiPhone } from 'react-icons/fi'
-import Head from '../Head'
 
 const RestaurantDetail = () => {
   const { slug } = useParams()
@@ -28,7 +28,7 @@ const RestaurantDetail = () => {
         />
       </div>
       <Layout>
-        <div className='mt-24'>
+        <div className='mt-10'>
           <h2>RESTAURANT</h2>
         </div>
         <div className='w-full flex flex-col gap-4 bg-white border border-slate-400 lg:flex-row mt-6 lg:items-center lg:gap-8'>
@@ -65,10 +65,14 @@ const RestaurantDetail = () => {
                 <BiMap size={20} />
                 {restaurante?.address}
               </p>
-              <p className='flex items-center'>
-                <FiPhone size={20} />
-                {restaurante?.phone}
-              </p>
+              {
+                restaurante.phone !== "" && (
+                  <p className='flex items-center'>
+                    <FiPhone size={20} />
+                    {restaurante?.phone}
+                  </p>
+                )
+              }
             </div>
             <div className='w-full flex flex-col gap-3'>
               <div className=''>
