@@ -456,8 +456,9 @@
       "slug": "parada-gallardete",
       "title": "Festival Parada del Gallardete Huamachuco",
       "image": "/images/Costumbres/gallardete.jpg",
-      "description": "Se realiza con el fin de dar inicio a la fiesta patronal en honor a la virgen de la alta gracia.",
-      "background": "https://detrujillo.com/wp-content/uploads/2018/07/inicia-fiesta-patronal-huamachuco-tradicional-parada-gallardete.jpg",
+      "description": "La Parada del Gallardete marca el inicio de la Festividad en Honor a la Santísima Virgen María de la Alta Gracia y consiste en...",
+      "fullDescription": "La Parada del Gallardete marca el inicio de la Festividad en Honor a la Santísima Virgen María de la Alta Gracia y consiste en la colocación de un madero de más de 40 metros de altura que sirve de asta a un gigantesco gallardete con los colores patrios rojo y blanco, el cual es izado en la plaza de Armas de Huamachuco.",
+      "background": "/images/Costumbres/parada_gallardete.jpg",
       "subtitleOne": "Celebración de origen ancestral",
       "textSubOne": "Los orígenes de la Parada del Gallardete se remontan a la cultura preincaica Huamachuco, cuyos habitantes plantaban un árbol como culto a la fertilidad y a la renovación cíclica de la vida. Este acto ritual expresa también la relación del mundo andino con la naturaleza, percibida como ente divino y, por lo tanto, da cuenta de una concepción particular de la vida.",
       "video": "/videos/parada_gallardete.mp4",
@@ -473,25 +474,27 @@
         }
       ],
       "subtitleTwo": "Patrimonio Cultural de la Nación",
-      "textSubTwo": "La Parada del Gallardete y la festividad en honor de la Virgen de la Alta Gracia de la provincia de Sánchez Carrión fueron declarados Patrimonio Cultural de la Nación en el año 2011, dado que se reconocen ambos eventos, unidos indesligablemente, como una poderosa fuente de identidad de esta provincia del departamento de La Libertad.",
-      "hotel": [
+      "textSubTwo": "La Parada del Gallardete y la festividad en honor de la Virgen de la Alta Gracia de la provincia de Sánchez Carrión fueron declarados Patrimonio Cultural de la Nación en el año 2011, dado que se reconocen ambos eventos, unidos indesligablemente, como una poderosa fuente de identidad de esta provincia del departamento de La Libertad",
+      "actividad": [
         {
           "id": 1,
-          "name": "Hotel Santa María",
-          "addres": "Jr. Addres N° 72",
-          "image": "https://www.ahstatic.com/photos/a7l9_ho_00_p_1024x768.jpg"
+          "name": "Traslado del madero",
+          "image": "/images/Costumbres/parada_gallardete1.jpg"
         },
         {
           "id": 2,
-          "name": "Hotel El Paisano",
-          "addres": "Jr. Addres N° 72",
-          "image": "https://static.hosteltur.com/app/public/uploads/img/articles/2013/09/01/M_5b14ea6fb7f86_shutterstock_HOTEL.jpg"
+          "name": "Chirocos",
+          "image": "/images/Costumbres/parada_gallardete2.jpg"
         },
         {
           "id": 3,
-          "name": "Hotel Virgen de Alta Gracia",
-          "addres": "Av. Addres N° 72",
-          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/34193586.jpg?k=0429979a519dab5376d0ab21d53c8a3ef40cd1ade09bb752f1c49ec4d719446e&o=&hp=1"
+          "name": "Platos Típicos",
+          "image": "/images/Costumbres/parada_gallardete3.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Danzas",
+          "image": "/images/Costumbres/parada_gallardete4.jpg"
         }
       ],
       "recommendations": [
@@ -514,11 +517,12 @@
       "slug": "contradanza",
       "title": "Danza de nuestra Tierra 'La Contradanza'.",
       "image": "/images/Costumbres/contradanzanina2022.jpg",
-      "description": "Es una danza masculina, que bailan incansablemente durante todos los días y noches de la fiesta de la Virgen De la Alta Gracia, son los primeros en llegar y los últimos en retirarse.",
+      "description": "Es una danza masculina, que bailan incansablemente durante todos los días y noches de la fiesta de la Virgen De la Alta Gracia...",
+      "fullDescription": "Es una danza masculina, que bailan incansablemente durante todos los días y noches de la fiesta de la Virgen De la Alta Gracia, son los primeros en llegar y los últimos en retirarse. Originada como una parodia de la contradanza europea tal como lo ejecutaban los españoles de la época virreinal en sus bailes sociales. La vestimenta típica incluye ropa bastante colorida hecha a partir de retazos, un sombrero de paja adornada de un espejo y un palo de madera a imitación de las espadas de los españoles, las cuales cruzaban durante la contradanza europea. Es una danza originaria del lugar en imitación a los españoles. ",
       "background": "/images/Costumbres/contradanza_hero.jpg",
       "subtitleOne": "Origenes de la Contradanza",
       "textSubOne": "Contradanza europea arraigada en Huamachuco tras la conquista española. Sacerdotes agustinos fundaron la ciudad en 1551, estableciendo la Virgen de la Alta Gracia como patrona local. Festividades locales exigían danzas de comparsas en su honor. La Contradanza se ejecuta en la Fiesta de Santiago El Mayor y la Fiesta de la Virgen de las Mercedes, con comparsas mixtas.",
-      "video": "https://www.youtube.com/watch?v=0ettQGQ5XqM",
+      "video": "/videos/contradanza.mp4",
       "gallery": [
         {
           "source": "/images/Costumbres/contradanza_1.jpg"
@@ -531,27 +535,8 @@
         }
       ],
       "subtitleTwo": "Vestimenta",
-      "textSubTwo": "La vestimenta de la Contradanza muestra su original colonial tardío en el uso de las prendas derivadas de la moda del siglo XVIII, tal como se presenta en una comparación con los dibujos del Tratado del cronista español Baltazar Martínez de Compañón, que incluye a población de Huamachuco. Esta adopción fue consecuencia de la imposición de la vestimenta española debido a las rebeliones indígenas que culminaron con la liderada por Túpac Amaru II (1777-1781), como un modo de reprimir toda forma de resistencia cultural. Este argumento indicaría que la Contradanza fue adoptada por la población de Huamachuco a partir de ese periodo.",
-      "hotel": [
-        {
-          "id": 1,
-          "name": "Hotel Santa María",
-          "addres": "Jr. Addres N° 72",
-          "image": "https://www.ahstatic.com/photos/a7l9_ho_00_p_1024x768.jpg"
-        },
-        {
-          "id": 2,
-          "name": "Hotel El Paisano",
-          "addres": "Jr. Addres N° 72",
-          "image": "https://static.hosteltur.com/app/public/uploads/img/articles/2013/09/01/M_5b14ea6fb7f86_shutterstock_HOTEL.jpg"
-        },
-        {
-          "id": 3,
-          "name": "Hotel Virgen de Alta Gracia",
-          "addres": "Av. Addres N° 72",
-          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/34193586.jpg?k=0429979a519dab5376d0ab21d53c8a3ef40cd1ade09bb752f1c49ec4d719446e&o=&hp=1"
-        }
-      ],
+      "textSubTwo": "La vestimenta de la Contradanza muestra su original colonial tardío en el uso de las prendas derivadas de la moda del siglo XVIII, tal como se presenta en una comparación con los dibujos del Tratado del cronista español Baltazar Martínez de Compañón, que incluye a población de Huamachuco. Esta adopción fue consecuencia de la imposición de la vestimenta española debido a las rebeliones indígenas que culminaron con la liderada por Túpac Amaru II (1777-1781), como un modo de reprimir toda forma de resistencia cultural. Este argumento indicaría que la Contradanza fue adoptada por la población de Huamachuco a partir de ese periodo",
+      "actividad": [],
       "recommendations": [
         {
           "id": 1,
@@ -569,45 +554,48 @@
     },
     {
       "id": 3,
-      "slug": "danza-virgen-altagracia",
-      "title": "Danza en Honor a la Virgen de la Alta Gracia.",
-      "image": "/images/Costumbres/virgen.jpg",
-      "description": "Se realiza con el fin de dar inicio a la fiesta patronal en honor a la virgen de la alta gracia.",
-      "background": "/images/Costumbres/contradanza_hero.jpg",
-      "subtitleOne": "Origenes de la Contradanza",
-      "textSubOne": "Contradanza europea arraigada en Huamachuco tras la conquista española. Sacerdotes agustinos fundaron la ciudad en 1551, estableciendo la Virgen de la Alta Gracia como patrona local. Festividades locales exigían danzas de comparsas en su honor. La Contradanza se ejecuta en la Fiesta de Santiago El Mayor y la Fiesta de la Virgen de las Mercedes, con comparsas mixtas.",
+      "slug": "carnaval-huamachuquino",
+      "title": "Carnaval Huamachuquino",
+      "image": "/images/Costumbres/carnaval1.jpg",
+      "description": "Del 23 de febrero al 5 de marzo se realiza la Carnaval Huamachuquino, la cuna de los hombres célebres se llenará de color y algarabía.",
+      "fullDescription": "",
+      "background": "/images/Costumbres/carnaval.jpg",
+      "subtitleOne": "Tradición Ancestral",
+      "textSubOne": "El Carnaval huamachuquino es una fiesta popular que organiza la Municipalidad Provincial de Sánchez Carrión y forma parte ya del turismo vivencial que poco a poco va incrementandose en esta región. Dentro de las actividades que destacan estan, el corso y el concurso de plato carnavalesco con productos oriundos de la zona. ",
       "video": "https://www.youtube.com/watch?v=0ettQGQ5XqM",
       "gallery": [
         {
-          "source": "/images/Costumbres/contradanza_1.jpg"
+          "source": "/images/Costumbres/carnaval2.jpg"
         },
         {
-          "source": "/images/Costumbres/contradanza_2.jpg"
+          "source": "/images/Costumbres/carnaval3.jpg"
         },
         {
-          "source": "/images/Costumbres/contradanza_3.jpg"
+          "source": "/images/Costumbres/carnaval4.jpg"
         }
       ],
-      "subtitleTwo": "Vestimenta",
-      "textSubTwo": "La vestimenta de la Contradanza muestra su original colonial tardío en el uso de las prendas derivadas de la moda del siglo XVIII, tal como se presenta en una comparación con los dibujos del Tratado del cronista español Baltazar Martínez de Compañón, que incluye a población de Huamachuco. Esta adopción fue consecuencia de la imposición de la vestimenta española debido a las rebeliones indígenas que culminaron con la liderada por Túpac Amaru II (1777-1781), como un modo de reprimir toda forma de resistencia cultural. Este argumento indicaría que la Contradanza fue adoptada por la población de Huamachuco a partir de ese periodo.",
-      "hotel": [
+      "subtitleTwo": "Actividades que se realizan",
+      "textSubTwo": " • Primer día: concurso de coplas carnavalescas, en ella se destaca el canto jocoso a las costumbres, personajes ilustres y pintorescos asi como la burla sana a las autoridades locales. • Segundo día: Elección de la señorita carnaval; la belleza de las damas huamachuquinas se pone de manifiesto en desfile especial con trajes carnavalescos con caracteristicas típicas de la zona. • Tercer día: Mixtura gastronómica carnavalesca, se presenta una variedad de platos con motivos de carnaval elaborados con productos oriundos de Huamachuco asi como la chicha de jora y la aloja (hecha de maiz morado) preparadas especialmente para esta fiesta.   • Cuarto día: El Domingo es el día central con el concurso de carros alegóricos (corso carnavalesco); los distintos barrios y agrupaciones elaboran coloridos carros alegóricos y visten estrepitosos trajes para desfilar por las principales calles de la ciudad de Huamachuco",
+      "actividad": [
         {
           "id": 1,
-          "name": "Hotel Santa María",
-          "addres": "Jr. Addres N° 72",
-          "image": "https://www.ahstatic.com/photos/a7l9_ho_00_p_1024x768.jpg"
-        },
+          "name": "Concurso de Coplas",
+          "image": "/images/Costumbres/carnaval_actividad1.jpg"
+        }, 
         {
           "id": 2,
-          "name": "Hotel El Paisano",
-          "addres": "Jr. Addres N° 72",
-          "image": "https://static.hosteltur.com/app/public/uploads/img/articles/2013/09/01/M_5b14ea6fb7f86_shutterstock_HOTEL.jpg"
+          "name": "Elección a 'Miss Carnaval'",
+          "image": "/images/Costumbres/carnaval_actividad2.jpg"
         },
         {
           "id": 3,
-          "name": "Hotel Virgen de Alta Gracia",
-          "addres": "Av. Addres N° 72",
-          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/34193586.jpg?k=0429979a519dab5376d0ab21d53c8a3ef40cd1ade09bb752f1c49ec4d719446e&o=&hp=1"
+          "name": "Plato Carnavalesco",
+          "image": "/images/Costumbres/carnaval_actividad3.jpeg"
+        },
+        {
+          "id": 4,
+          "name": "Carros alegóricos",
+          "image": "/images/Costumbres/carnaval_actividad4.jpeg"
         }
       ],
       "recommendations": [
@@ -630,42 +618,45 @@
       "slug": "festividada-sfa",
       "title": "Festividad en Honor a San Francisco de Asis.",
       "image": "/images/Costumbres/negritos.jpg",
-      "description": "Se realiza con el fin de dar inicio a la fiesta patronal en honor a la virgen de la alta gracia.",
+      "description": "En la festividad sobresale la multitudinaria presencia de los Negritos, personajes importantes de esta celebración religiosa...",
+      "fullDescription": "En la festividad sobresale la multitudinaria presencia de los Negritos, personajes importantes de esta celebración religiosa que le dan un sello particular a la tradición, y que han hecho que también sea conocida como la fiesta de Tayta Pancho y sus Negritos. La relación de los Negritos con San Francisco de Asís se explica por una tradición oral local según la cual, en la época de la Colonia, un capitán español tenía un esclavo afrodescendiente al cual le tenía un especial afecto. En aquel entonces, una epidemia de tifus llegó al pueblo y el esclavo cayó enfermo  y murió, por lo cual el español lloró inconsolablemente  y encomendó el alma del esclavo a San Francisco de Asís, de quien era devoto. ",
       "background": "/images/Costumbres/sanfa_hero.jpg",
-      "subtitleOne": "Origenes de la Contradanza",
-      "textSubOne": "Contradanza europea arraigada en Huamachuco tras la conquista española. Sacerdotes agustinos fundaron la ciudad en 1551, estableciendo la Virgen de la Alta Gracia como patrona local. Festividades locales exigían danzas de comparsas en su honor. La Contradanza se ejecuta en la Fiesta de Santiago El Mayor y la Fiesta de la Virgen de las Mercedes, con comparsas mixtas.",
+      "subtitleOne": "Parada de Gallardete",
+      "textSubOne": "Las actividades se inician el segundo domingo de setiembre con la tradicional Parada de Gallardete y finalizan el último sábado de octubre. La Parada de Gallardete es un acto ritual para el que se utiliza un tronco de árbol de aproximadamente 35 metros de altura, pintado de blanco y marrón, colores simbólicos vinculados a San Francisco de Asís.",
       "video": "/videos/festividad_sanfrancisco.mp4",
       "gallery": [
         {
-          "source": "/images/Costumbres/contradanza_1.jpg"
+          "source": "/images/Costumbres/san_francisco1.jpg"
         },
         {
-          "source": "/images/Costumbres/contradanza_2.jpg"
+          "source": "/images/Costumbres/san_francisco4.jpg"
         },
         {
-          "source": "/images/Costumbres/contradanza_3.jpg"
+          "source": "/images/Costumbres/san_francisco3.jpg"
         }
       ],
-      "subtitleTwo": "Vestimenta",
-      "textSubTwo": "La vestimenta de la Contradanza muestra su original colonial tardío en el uso de las prendas derivadas de la moda del siglo XVIII, tal como se presenta en una comparación con los dibujos del Tratado del cronista español Baltazar Martínez de Compañón, que incluye a población de Huamachuco. Esta adopción fue consecuencia de la imposición de la vestimenta española debido a las rebeliones indígenas que culminaron con la liderada por Túpac Amaru II (1777-1781), como un modo de reprimir toda forma de resistencia cultural. Este argumento indicaría que la Contradanza fue adoptada por la población de Huamachuco a partir de ese periodo.",
-      "hotel": [
+      "subtitleTwo": "Los Negritos",
+      "textSubTwo": "Son los miembros de la hermandad quienes interpretan a los Negritos. Durante el día central, los Negritos  se concentran en el local de la hermandad y bajo la supervisión del inspector general se desplazan hacia el atrio de la catedral, donde otro grupo sale cargando en hombros el anda mayor de San Francisco de Asís. La imagen recorre la plaza de la ciudad acompañada de las andas de Santo Domingo y la Virgen del Rosario, antes de regresar a la catedral. Los Negritos realizan bailando el tradicional recorrido de los cinco altares, que evocan las cinco llagas de Cristo, y que se ubican en cinco antiguos barrios de la ciudad. Cada altar tiene pequeñas réplicas de San Francisco de Asís, así como velas y flores. Durante el recorrido de altares, las mujeres invitan a los Negritos comida y chicha. ",
+      "actividad": [
         {
           "id": 1,
-          "name": "Hotel Santa María",
-          "addres": "Jr. Addres N° 72",
-          "image": "https://www.ahstatic.com/photos/a7l9_ho_00_p_1024x768.jpg"
+          "name": "Procesión",
+          "image": "/images/Costumbres/san_francisco2.jpg"
         },
         {
           "id": 2,
-          "name": "Hotel El Paisano",
-          "addres": "Jr. Addres N° 72",
-          "image": "https://static.hosteltur.com/app/public/uploads/img/articles/2013/09/01/M_5b14ea6fb7f86_shutterstock_HOTEL.jpg"
+          "name": "Apoyo al adulto mayor",
+          "image": "/images/Costumbres/san_francisco5.jpg"
         },
         {
           "id": 3,
-          "name": "Hotel Virgen de Alta Gracia",
-          "addres": "Av. Addres N° 72",
-          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/34193586.jpg?k=0429979a519dab5376d0ab21d53c8a3ef40cd1ade09bb752f1c49ec4d719446e&o=&hp=1"
+          "name": "Parada de Gallardete",
+          "image": "/images/Costumbres/san_francisco6.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Campeonato Franciscano de Fulbito",
+          "image": "/images/Costumbres/san_francisco7.jpg"
         }
       ],
       "recommendations": [
