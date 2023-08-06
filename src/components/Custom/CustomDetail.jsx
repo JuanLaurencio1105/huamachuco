@@ -25,7 +25,6 @@ const Actividad = ({ image, name }) => {
     )
 }
 
-
 const CustomDetail = () => {
     const { slug } = useParams()
     const [data] = useState(datosJson.costumbre)
@@ -33,7 +32,6 @@ const CustomDetail = () => {
 
     return (
         <>
-
             <div className="h-full w-full overflow-hidden clip-path">
                 <div className=" w-full bg-fixed h-screen  bg-no-repeat bg-center bg-cover"
                     style={{
@@ -57,7 +55,7 @@ const CustomDetail = () => {
 
                     <div className="w-full flex h-auto gap-10 flex-col py-10 md:flex-row md:gap-0  overflow-hidden ">
                         <div className="w-full md:w-2/4 flex flex-col-reverse md:flex-col">
-                            <h3 className="mb-3 no-underline">{costumbre.subtitleOne}</h3>
+                            <h2 className="mb-3">{costumbre.subtitleOne}</h2>
                             <p className="py-4">{costumbre.textSubOne}
                             </p>
 
@@ -66,7 +64,7 @@ const CustomDetail = () => {
                             </div>
                         </div>
 
-                        <div className="w-8/12 rounded-xl sm:w-[28vw] m-auto">
+                        <div className="w-[300px] md:w-[280px] xl:w-[350px] rounded-xl  m-auto">
                             <Swiper
                                 effect={'cards'}
                                 grabCursor={true}
@@ -87,10 +85,14 @@ const CustomDetail = () => {
                         </div>
                     </div>
 
+                    <h2 className="text-left pb-4">{costumbre.subtitleTwo}</h2>
+                    {costumbre.textSubTwo.split(".").map((item, index) => (
+                        <p  className="mb-3"
+                            key={index}>
+                            {item.trim() + "."}
 
-                    <h3 className="text-left pb-2 no-underline">{costumbre.subtitleTwo}</h3>
-                    <p>{costumbre.textSubTwo}</p>
-
+                        </p>
+                    ))}
                 </section>
 
             </Layout>
@@ -98,7 +100,7 @@ const CustomDetail = () => {
             {costumbre.actividad && costumbre.actividad.length > 0 ? (
                 <div className="my-10 lg:bg-white lg:my-20 lg:py-10 lg:pb-20">
                     <Layout>
-                        <h3 className="no-underline py-3 lg:py-5 ">ACTIVIDADES RELACIONADAS</h3>
+                        <h2 className="no-underline py-3 lg:py-5 ">ACTIVIDADES RELACIONADAS</h2>
 
                         <div className="grid grid-cols-1 gap-10 sm:grid-cols-3 md:mt-4 md:grid-cols-3 lg:grid-cols-4 ">
                             {costumbre?.actividad?.map((item) => (
@@ -115,8 +117,8 @@ const CustomDetail = () => {
             ) : null}
 
             <Layout>
-                <section className='mt-10 flex flex-col gap-4 sm:mt-20 lg:mt-28 lg:px-20'>
-                    <h2 className="no-underline">Recomendaciones para asistir a esta tradición</h2>
+                <section className='flex flex-col gap-4 py-10'>
+                    <h2>Recomendaciones para asistir a esta tradición</h2>
                     <Recommendations costumbre={costumbre} />
                 </section>
             </Layout>

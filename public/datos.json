@@ -474,7 +474,7 @@
         }
       ],
       "subtitleTwo": "Patrimonio Cultural de la Nación",
-      "textSubTwo": "La Parada del Gallardete y la festividad en honor de la Virgen de la Alta Gracia de la provincia de Sánchez Carrión fueron declarados Patrimonio Cultural de la Nación en el año 2011, dado que se reconocen ambos eventos, unidos indesligablemente, como una poderosa fuente de identidad de esta provincia del departamento de La Libertad.",
+      "textSubTwo": "La Parada del Gallardete y la festividad en honor de la Virgen de la Alta Gracia de la provincia de Sánchez Carrión fueron declarados Patrimonio Cultural de la Nación en el año 2011, dado que se reconocen ambos eventos, unidos indesligablemente, como una poderosa fuente de identidad de esta provincia del departamento de La Libertad",
       "actividad": [
         {
           "id": 1,
@@ -489,7 +489,7 @@
         {
           "id": 3,
           "name": "Platos Típicos",
-          "image": "/images/Costumbres/parada_gallardete3.jpg"  
+          "image": "/images/Costumbres/parada_gallardete3.jpg"
         },
         {
           "id": 4,
@@ -535,10 +535,8 @@
         }
       ],
       "subtitleTwo": "Vestimenta",
-      "textSubTwo": "La vestimenta de la Contradanza muestra su original colonial tardío en el uso de las prendas derivadas de la moda del siglo XVIII, tal como se presenta en una comparación con los dibujos del Tratado del cronista español Baltazar Martínez de Compañón, que incluye a población de Huamachuco. Esta adopción fue consecuencia de la imposición de la vestimenta española debido a las rebeliones indígenas que culminaron con la liderada por Túpac Amaru II (1777-1781), como un modo de reprimir toda forma de resistencia cultural. Este argumento indicaría que la Contradanza fue adoptada por la población de Huamachuco a partir de ese periodo.",
-      "actividad": [
-        
-      ],
+      "textSubTwo": "La vestimenta de la Contradanza muestra su original colonial tardío en el uso de las prendas derivadas de la moda del siglo XVIII, tal como se presenta en una comparación con los dibujos del Tratado del cronista español Baltazar Martínez de Compañón, que incluye a población de Huamachuco. Esta adopción fue consecuencia de la imposición de la vestimenta española debido a las rebeliones indígenas que culminaron con la liderada por Túpac Amaru II (1777-1781), como un modo de reprimir toda forma de resistencia cultural. Este argumento indicaría que la Contradanza fue adoptada por la población de Huamachuco a partir de ese periodo",
+      "actividad": [],
       "recommendations": [
         {
           "id": 1,
@@ -556,29 +554,49 @@
     },
     {
       "id": 3,
-      "slug": "danza-virgen-altagracia",
-      "title": "Danza en Honor a la Virgen de la Alta Gracia.",
-      "image": "/images/Costumbres/virgen.jpg",
-      "description": "Se realiza con el fin de dar inicio a la fiesta patronal en honor a la virgen de la alta gracia.",
-      "background": "/images/Costumbres/virgen.jpg",
-      "subtitleOne": "Origenes de la Contradanza",
-      "textSubOne": "Contradanza europea arraigada en Huamachuco tras la conquista española. Sacerdotes agustinos fundaron la ciudad en 1551, estableciendo la Virgen de la Alta Gracia como patrona local. Festividades locales exigían danzas de comparsas en su honor. La Contradanza se ejecuta en la Fiesta de Santiago El Mayor y la Fiesta de la Virgen de las Mercedes, con comparsas mixtas.",
+      "slug": "carnaval-huamachuquino",
+      "title": "Carnaval Huamachuquino",
+      "image": "/images/Costumbres/carnaval1.jpg",
+      "description": "Del 23 de febrero al 5 de marzo se realiza la Carnaval Huamachuquino, la cuna de los hombres célebres se llenará de color y algarabía.",
+      "fullDescription": "",
+      "background": "/images/Costumbres/carnaval.jpg",
+      "subtitleOne": "Tradición Ancestral",
+      "textSubOne": "El Carnaval huamachuquino es una fiesta popular que organiza la Municipalidad Provincial de Sánchez Carrión y forma parte ya del turismo vivencial que poco a poco va incrementandose en esta región. Dentro de las actividades que destacan estan, el corso y el concurso de plato carnavalesco con productos oriundos de la zona. ",
       "video": "https://www.youtube.com/watch?v=0ettQGQ5XqM",
       "gallery": [
         {
-          "source": "/images/Costumbres/contradanza_1.jpg"
+          "source": "/images/Costumbres/carnaval2.jpg"
         },
         {
-          "source": "/images/Costumbres/contradanza_2.jpg"
+          "source": "/images/Costumbres/carnaval3.jpg"
         },
         {
-          "source": "/images/Costumbres/contradanza_3.jpg"
+          "source": "/images/Costumbres/carnaval4.jpg"
         }
       ],
-      "subtitleTwo": "Vestimenta",
-      "textSubTwo": "La vestimenta de la Contradanza muestra su original colonial tardío en el uso de las prendas derivadas de la moda del siglo XVIII, tal como se presenta en una comparación con los dibujos del Tratado del cronista español Baltazar Martínez de Compañón, que incluye a población de Huamachuco. Esta adopción fue consecuencia de la imposición de la vestimenta española debido a las rebeliones indígenas que culminaron con la liderada por Túpac Amaru II (1777-1781), como un modo de reprimir toda forma de resistencia cultural. Este argumento indicaría que la Contradanza fue adoptada por la población de Huamachuco a partir de ese periodo.",
+      "subtitleTwo": "Actividades que se realizan",
+      "textSubTwo": " • Primer día: concurso de coplas carnavalescas, en ella se destaca el canto jocoso a las costumbres, personajes ilustres y pintorescos asi como la burla sana a las autoridades locales. • Segundo día: Elección de la señorita carnaval; la belleza de las damas huamachuquinas se pone de manifiesto en desfile especial con trajes carnavalescos con caracteristicas típicas de la zona. • Tercer día: Mixtura gastronómica carnavalesca, se presenta una variedad de platos con motivos de carnaval elaborados con productos oriundos de Huamachuco asi como la chicha de jora y la aloja (hecha de maiz morado) preparadas especialmente para esta fiesta.   • Cuarto día: El Domingo es el día central con el concurso de carros alegóricos (corso carnavalesco); los distintos barrios y agrupaciones elaboran coloridos carros alegóricos y visten estrepitosos trajes para desfilar por las principales calles de la ciudad de Huamachuco",
       "actividad": [
-        
+        {
+          "id": 1,
+          "name": "Concurso de Coplas",
+          "image": "/images/Costumbres/carnaval_actividad1.jpg"
+        }, 
+        {
+          "id": 2,
+          "name": "Elección a 'Miss Carnaval'",
+          "image": "/images/Costumbres/carnaval_actividad2.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Plato Carnavalesco",
+          "image": "/images/Costumbres/carnaval_actividad3.jpeg"
+        },
+        {
+          "id": 4,
+          "name": "Carros alegóricos",
+          "image": "/images/Costumbres/carnaval_actividad4.jpeg"
+        }
       ],
       "recommendations": [
         {
