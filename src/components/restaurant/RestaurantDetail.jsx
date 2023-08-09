@@ -1,7 +1,7 @@
 import Head from '../Head'
 import datosJson from '../../../public/datos.json'
 import Layout from '../../layouts/Layout'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { BiMap } from 'react-icons/bi'
 import { FiPhone } from 'react-icons/fi'
@@ -16,6 +16,10 @@ import 'swiper/css/effect-fade'
 import 'swiper/css/effect-cards'
 
 const RestaurantDetail = () => {
+
+  useEffect(() => {
+    ScrollReveal().reveal('.scrollRight', { duration: 2500, distance: '60px', origin: 'right', scale: 0.85 })
+  })
   const { slug } = useParams()
   const [data] = useState(datosJson.gastronomia.restaurantes)
   const restaurante = data.find((restaurant) => restaurant.slug === slug)
@@ -54,7 +58,7 @@ const RestaurantDetail = () => {
               </SwiperSlide>
             ))}
           </Swiper>
-          <div className='w-full flex flex-col justify-center gap-4 h-full md:flex-row md:gap-8 lg:flex-col lg:px-6'>
+          <div className='w-full scrollRight px-4 flex flex-col justify-center gap-4 h-full md:flex-row md:gap-8 lg:flex-col lg:px-6'>
             <div className='w-full'>
               <h2>{restaurante?.title}</h2>
               <p className='inline-block bg-green-300 px-3 py-1 rounded-md my-2 md:mt-4'>

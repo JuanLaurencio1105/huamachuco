@@ -1,10 +1,15 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Layout from '../layouts/Layout'
 import Slide from '../layouts/Slide'
 import datosJson from '../../public/datos.json'
 import CardTour from '../components/CardTour'
 
 const Turism = () => {
+
+  useEffect(() => {
+    ScrollReveal().reveal('.scrollBottom', { duration: 2500, distance: '60px', origin: 'bottom', scale: 0.85 })
+    // ScrollReveal().reveal('.scrollRight', { duration: 2500, distance: '60px', origin: 'right', scale: 0.85 })
+  }, [])
   const [data] = useState(datosJson.turismo)
   const [turismo] = useState(datosJson.slides)
 
@@ -17,7 +22,7 @@ const Turism = () => {
     <div className='relative overflow-hidden'>
       <Slide data={turismoData} />
       <Layout>
-        <section className='mt-10'>
+        <section className='mt-10 scrollBottom'>
           <div className='flex flex-col gap-5 lg:px-6'>
             <h2>LUGARES TURISTICOS DE HUAMACHUCO</h2>
             <p className='lg:text-xl text-center'>Descubre la cautivadora región de Huamachuco, un destino turístico en la provincia de Sánchez Carrión, La Libertad, Perú. Rodeado de majestuosas montañas y exuberantes paisajes andinos, este lugar encantador te sumerge en una experiencia única donde la historia, la cultura y la naturaleza se entrelazan de manera armoniosa.</p>
