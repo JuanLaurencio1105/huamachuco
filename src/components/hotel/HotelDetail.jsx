@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import datosJson from '../../../public/datos.json'
 import Head from '../Head'
 import Layout from '../../layouts/Layout'
@@ -13,9 +13,11 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/autoplay'
 import 'swiper/css/effect-fade'
-import 'swiper/css/effect-cards'
 
 const HotelDetail = () => {
+  useEffect(() => {
+    ScrollReveal().reveal('.scrollRight', { duration: 2500, distance: '60px', origin: 'right', scale: 0.85 })
+  }, [])
 
   const { slug } = useParams()
   const [data] = useState(datosJson.Hoteles)
@@ -52,7 +54,7 @@ const HotelDetail = () => {
                 </SwiperSlide>
               ))}
             </Swiper>
-            <div className='w-full flex flex-col gap-4 px-4'>
+            <div className='w-full flex flex-col gap-4 px-4 scrollRight'>
               <h2>{hoteles.title}</h2>
               <div className='flex flex-col gap-4'>
                 <p className='flex items-center gap-3'>

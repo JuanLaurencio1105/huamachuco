@@ -1,8 +1,8 @@
 import React from 'react'
 
-const DataCard = ({ image, title, text }) => {
+const DataCard = ({ image, title, text, scroll }) => {
   return (
-    <article className='bg-white border border-slate-400 rounded-xl md:max-w-sm mx-auto'>
+    <article className={`bg-white border border-slate-400 rounded-xl md:max-w-sm mx-auto ${scroll}`}>
       <img
         src={image}
         alt={title}
