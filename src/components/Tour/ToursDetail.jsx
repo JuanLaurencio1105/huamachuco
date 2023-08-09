@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import datosJson from '../../../public/datos.json'
 import Layout from '../../layouts/Layout'
@@ -18,8 +18,14 @@ import 'swiper/css/effect-fade'
 import 'swiper/css/effect-cards'
 
 const ToursDetail = () => {
-  const { slug } = useParams()
 
+  useEffect(() => {
+    ScrollReveal().reveal('.scrollBottom', { duration: 2500, distance: '60px', origin: 'bottom', scale: 0.85 })
+    ScrollReveal().reveal('.scrollRight', { duration: 2500, distance: '60px', origin: 'right', scale: 0.85 })
+    ScrollReveal().reveal('.scrollLeft', { duration: 2500, distance: '60px', origin: 'left', scale: 0.85 })
+  }, [])
+
+  const { slug } = useParams()
   const [data] = useState(datosJson.turismo)
   const tours = data.find((tour) => tour.slug === slug)
   return (
@@ -31,7 +37,7 @@ const ToursDetail = () => {
         <h2>{tours?.titleTour?.toUpperCase()}</h2>
         <div className='w-full flex flex-col gap-4 mt-6 xl:flex-row'>
           <Swiper
-            className='w-full max-w-2xl'
+            className='w-full max-w-2xl scrollLeft'
             grabCursor={true}
             effect={'fade'}
             spaceBetween={10}
@@ -54,7 +60,7 @@ const ToursDetail = () => {
               </SwiperSlide>
             ))}
           </Swiper>
-          <div className='w-full lg:px-6'>
+          <div className='w-full scrollRight lg:px-6'>
             <p className='tracking-wide'>{tours?.description}</p>
           </div>
         </div>
@@ -62,10 +68,10 @@ const ToursDetail = () => {
       <div className='flex flex-col gap-5 mt-8 bg-white py-10'>
         <Layout>
           <div className='flex flex-col gap-4 md:flex-row md:gap-8 xl:gap-12'>
-            <div className='w-full'>
+            <div className='w-full scrollLeft'>
               <Frame src={tours?.route} />
             </div>
-            <div className='w-full flex flex-col gap-4'>
+            <div className='w-full flex flex-col gap-4 scrollRight'>
               <h2>COMO LLEGAR</h2>
               <p className='flex items-center gap-1'>
                 <BiMap size={25} />
@@ -86,7 +92,7 @@ const ToursDetail = () => {
         </Layout>
       </div>
       <Layout>
-        <section className='mt-10 sm:mt-20 lg:mt-28'>
+        <section className='mt-10 scrollBottom sm:mt-20 lg:mt-28'>
           <h2>{tours?.titleRecreative.toUpperCase()}</h2>
           <div className='mt-8'>
             <Swiper
@@ -123,7 +129,7 @@ const ToursDetail = () => {
         </section>
         {
           tours.gastronomy !== "" && (
-            <div className='mt-10 flex flex-col gap-4 sm:mt-20 lg:mt-28'>
+            <div className='mt-10 flex flex-col gap-4 scrollBottom sm:mt-20 lg:mt-28'>
               <h2>{tours?.titleGastronomia?.toUpperCase()}</h2>
               <div className='mt-8'>
                 <Swiper
@@ -160,7 +166,7 @@ const ToursDetail = () => {
             </div>
           )
         }
-        <section className='mt-10 flex flex-col gap-4 sm:mt-20 lg:mt-28 lg:px-20'>
+        <section className='mt-10 flex flex-col gap-4 scrollBottom sm:mt-20 lg:mt-28 lg:px-20'>
           <h2>{tours?.titleRecomendaciones.toUpperCase()}</h2>
           <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 md:mt-4 lg:grid-cols-3'>
             {tours?.recommendation.map((recomend, index) => (

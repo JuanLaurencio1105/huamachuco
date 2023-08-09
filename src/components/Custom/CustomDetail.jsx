@@ -1,20 +1,20 @@
-import React from "react"
+import datosJson from '../../../public/datos.json'
+import Recommendations from "../Recommendations"
+import Layout from "../../layouts/Layout"
+import Head from '../Head'
+import React, { useEffect } from "react"
 import { useState } from "react"
 import { useParams } from "react-router-dom"
-import datosJson from '../../../public/datos.json'
-import Layout from "../../layouts/Layout"
-import Recommendations from "../Recommendations"
 import { Swiper, SwiperSlide } from "swiper/react"
+import { EffectCards, Pagination } from "swiper/modules"
 import 'swiper/css'
 import 'swiper/css/effect-cards';
-import { EffectCards } from "swiper/modules"
 import './customdetail.css'
 
 
 const Actividad = ({ image, name }) => {
     return (
-        <div className="h-[450px]  text-white relative ">
-            { }
+        <div className="h-[400px]  text-white relative">
             <div className="relative h-full w-full">
                 <img src={image} alt={name} className="h-full w-full rounded-xl" />
             </div>
@@ -26,68 +26,65 @@ const Actividad = ({ image, name }) => {
 }
 
 const CustomDetail = () => {
+
+    useEffect(() => {
+        ScrollReveal().reveal('.scrollBottom', { duration: 2500, distance: '60px', origin: 'bottom', scale: 0.85 })
+        ScrollReveal().reveal('.scrollRight', { duration: 2500, distance: '60px', origin: 'right', scale: 0.85 })
+        ScrollReveal().reveal('.scrollLeft', { duration: 2500, distance: '60px', origin: 'left', scale: 0.85 })
+    }, [])
+
     const { slug } = useParams()
     const [data] = useState(datosJson.costumbre)
     const costumbre = data.find((custom) => custom.slug === slug)
 
     return (
         <>
-            <div className="h-full w-full overflow-hidden clip-path">
-                <div className=" w-full bg-fixed h-screen  bg-no-repeat bg-center bg-cover"
-                    style={{
-                        backgroundImage: `linear-gradient(to top,
-                        rgba(14, 22, 63, 0.5),
-                        rgba(0, 0, 0, 0.9)),url(${costumbre.background})`
-                    }}
-                >
-                    <div className="text-lg text-white sm:text-xl md:text-2xl lg:text-3xl
-                    absolute inset-0 flex justify-center items-center" >
-                        <h3 className="no-underline">{costumbre?.title?.toUpperCase()}</h3>
-                    </div>
-                </div>
-            </div>
-
+            <Head
+                image={costumbre?.background}
+                title={costumbre?.title}
+            />
             <Layout>
                 <section className="flex flex-col">
-                    <div>
+                    <div className='scrollBottom'>
                         <p>{costumbre.fullDescription}</p>
                     </div>
 
-                    <div className="w-full flex h-auto gap-10 flex-col py-10 md:flex-row md:gap-0  overflow-hidden ">
-                        <div className="w-full md:w-2/4 flex flex-col-reverse md:flex-col">
+                    <div className="w-full flex h-auto gap-10 flex-col items-center py-10 md:flex-row md:gap-8  overflow-hidden ">
+                        <div className="w-full md:w-2/4 flex scrollLeft flex-col-reverse md:flex-col">
                             <h2 className="mb-3">{costumbre.subtitleOne}</h2>
                             <p className="py-4">{costumbre.textSubOne}
                             </p>
 
-                            <div className="rounded-xl bg-cyan-500 shadow-lg shadow-cyan-500/100 h-[350px]">
+                            <div className="rounded-xl h-[350px]">
                                 <video src={costumbre.video} autoPlay muted controls className="w-full h-full object-fill rounded-xl "></video>
                             </div>
                         </div>
 
-                        <div className="w-[300px] md:w-[280px] xl:w-[350px] rounded-xl  m-auto">
+                        <div className="scrollRight w-full max-w-sm mx-auto md:w-72 lg:w-96">
                             <Swiper
                                 effect={'cards'}
                                 grabCursor={true}
-                                modules={[EffectCards]}
-                                className="mySwiper bg-transparent"
+                                modules={[EffectCards, Pagination]}
+                                pagination={{ clickable: true }}
+                                className="mySwiper bg-transparent w-full"
                             >
                                 {costumbre.gallery?.map((image, index) => (
-                                    <SwiperSlide className="bg-none"
+                                    <SwiperSlide
                                         key={index + 1}
+                                        className="bg-none"
                                     >
                                         <img
                                             src={image?.source}
-                                            alt=""
-                                            className="w-full object-fill rounded-xl h-[555px]" />
+                                            className="w-full object-fill rounded-xl h-[420px] lg:h-[450px]" />
                                     </SwiperSlide>
                                 ))}
                             </Swiper>
                         </div>
                     </div>
 
-                    <h2 className="text-left pb-4">{costumbre.subtitleTwo}</h2>
+                    <h2 className="text-left pb-4 scrollBottom">{costumbre.subtitleTwo}</h2>
                     {costumbre.textSubTwo.split(".").map((item, index) => (
-                        <p  className="mb-3"
+                        <p className="mb-3 scrollBottom"
                             key={index}>
                             {item.trim() + "."}
 
@@ -97,12 +94,11 @@ const CustomDetail = () => {
 
             </Layout>
 
-            {costumbre.actividad && costumbre.actividad.length > 0 ? (
-                <div className="my-10 lg:bg-white lg:my-20 lg:py-10 lg:pb-20">
+            {costumbre.actividad.length > 0 ? (
+                <div className="my-10 scrollBottom lg:bg-white lg:my-20 lg:py-10 lg:pb-20">
                     <Layout>
-                        <h2 className="no-underline py-3 lg:py-5 ">ACTIVIDADES RELACIONADAS</h2>
-
-                        <div className="grid grid-cols-1 gap-10 sm:grid-cols-3 md:mt-4 md:grid-cols-3 lg:grid-cols-4 ">
+                        <h2 className="py-3 lg:py-5">ACTIVIDADES RELACIONADAS</h2>
+                        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:mt-4 lg:grid-cols-3 xl:grid-cols-4 ">
                             {costumbre?.actividad?.map((item) => (
                                 <Actividad
                                     key={item.id}
@@ -117,8 +113,8 @@ const CustomDetail = () => {
             ) : null}
 
             <Layout>
-                <section className='flex flex-col gap-4 py-10'>
-                    <h2>Recomendaciones para asistir a esta tradición</h2>
+                <section className='flex flex-col gap-4 py-10 scrollBottom'>
+                    <h2 className='uppercase'>Recomendaciones para asistir a esta tradición</h2>
                     <Recommendations costumbre={costumbre} />
                 </section>
             </Layout>
