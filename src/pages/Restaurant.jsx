@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import datosJson from '../../public/datos.json'
 import Layout from '../layouts/Layout'
 import DataCard from '../components/DataCard'
@@ -14,6 +14,10 @@ import 'swiper/css/effect-creative'
 
 
 const Gastronomy = () => {
+
+  useEffect(() => {
+    ScrollReveal().reveal('.scrollBottom', { duration: 2500, distance: '60px', origin: 'bottom', scale: 0.85 })
+  }, [])
   const [platos] = useState(datosJson.gastronomia.platos)
   const [bebidas] = useState(datosJson.gastronomia.bebidas)
   const [restaurantes] = useState(datosJson.gastronomia.restaurantes)
@@ -25,11 +29,11 @@ const Gastronomy = () => {
   return (
     <div>
       <Head
-      image={`/images/Gastronomia/tradicional6.jpg`}
+      image={`/images/Gastronomia/tradicional6.webp`}
       title='GASTRONOMIA'
       />
       <Layout>
-        <div className='my-8'>
+        <div className='my-8 scrollBottom'>
           <h2>RESTAURANTES DE HUAMACHUCO</h2>
           <div className='grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-6 xl:grid-cols-4'>
             {restaurantes.map((restaurant, index) => (
@@ -40,11 +44,11 @@ const Gastronomy = () => {
             ))}
           </div>
         </div>
-        <div className='mt-20 mb-4 flex flex-col gap-4 lg:px-20'>
+        <div className='mt-20 mb-4 flex flex-col gap-4 scrollBottom lg:px-20'>
           <h2>PLATOS TIPICOS DE HUAMACHUCO</h2>
           <span className='indent-4'>La base de la dieta en Huamachuco gira en torno a los alimentos nativos de la región, como papas, maíz, quinua y tubérculos, que son abundantes en los campos cultivados de la zona. Estos productos son la base de muchos platos y acompañamientos.</span>
         </div>
-        <div>
+        <div className='scrollBottom'>
           <div>
             <Swiper
               spaceBetween={20}
@@ -77,11 +81,11 @@ const Gastronomy = () => {
             </Swiper>
           </div>
         </div>
-        <div className='mt-20 mb-4 flex flex-col gap-4 lg:px-20'>
+        <div className='mt-20 mb-4 flex flex-col gap-4 scrollBottom lg:px-20'>
           <h2>POSTRES Y BEBIDAS DE HUAMACHUCO</h2>
           <p className='indent-4'>En Huamachuco, al igual que en otras regiones de Perú, encontrarás una variedad de postres y bebidas deliciosas y tradicionales.</p>
         </div>
-        <section>
+        <section className='scrollBottom'>
           <div>
             <Swiper
               spaceBetween={20}
