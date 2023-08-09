@@ -7,8 +7,8 @@
       "titleRecreative": "Actividades Recreativas",
       "titleGastronomia": "Gastronomia Local",
       "titleRecomendaciones": "Recomendaciones",
-      "image": "/images/Turismo/laguna/LAGUNA-SAUSACOCHA-1.jpg",
-      "hero": "/images/Turismo/laguna/laguna1.jpg",
+      "image": "/images/Turismo/laguna/LAGUNA-SAUSACOCHA-1.webp",
+      "hero": "/images/Turismo/laguna/lagunaa11.webp",
       "route": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d47380.07751241783!2d-78.04262214408892!3d-7.810874875863915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x91ade4eb4ee36581%3A0x33a715bb5b6ac9ab!2sHuamachuco!3m2!1d-7.816460999999999!2d-78.0452048!4m5!1s0x91ade33cf6ca20cb%3A0x14811a097c34c5ab!2sLaguna%20Sausacocha!3m2!1d-7.7959486!2d-77.9890016!5e0!3m2!1ses-419!2spe!4v1690507765560!5m2!1ses-419!2spe",
       "description": "La laguna Sausacocha se encuentra a 3200 m.s.n.m. al noroeste de la ciudad de Huamachuco en La Libertad. Su nombre significa “laguna que nunca se seca” Se encuentra en un área de aproximadamente 4 kilómetros cuadrados, donde se puede encontrar no solo este atractivo natural sino también un centro recreativo familiar. Este cuenta con juegos infantiles y canchas de arena para jugar fútbol. Asimismo, se pueden encontrar varios restaurantes y hospedajes alrededor de la laguna.En sus alrededores se encuentra una gran cantidad de flora, como la totora, el carrizo y otros vegetales que sirven como hábitat ideal para los patos silvestres y las gallaretas. Dentro de la laguna también se pueden encontrar peces de agua dulces como truchas y carpas.",
       "arrive": {
@@ -23,61 +23,61 @@
         ]
       },
       "gallery": [
-        "/images/Turismo/laguna/LAGUNA-SAUSACOCHA-1.jpg",
-        "/images/Turismo/laguna/laguna-botes.jpeg",
-        "/images/Turismo/laguna/laguna-noche-r.jpg",
-        "/images/Turismo/laguna/lagunaa4.jpg",
-        "/images/Turismo/laguna/isla.jpg",
-        "/images/Turismo/laguna/lagunaas.jpg",
-        "/images/Turismo/laguna/laguna-casa.jpeg",
-        "/images/Turismo/laguna/muelle2.jpg"
+        "/images/Turismo/laguna/LAGUNA-SAUSACOCHA-1.webp",
+        "/images/Turismo/laguna/laguna-botes.webp",
+        "/images/Turismo/laguna/laguna-noche-r.webp",
+        "/images/Turismo/laguna/lagunaa4.webp",
+        "/images/Turismo/laguna/isla.webp",
+        "/images/Turismo/laguna/lagunaas.webp",
+        "/images/Turismo/laguna/laguna-casa.webp",
+        "/images/Turismo/laguna/muelle2.webp"
       ],
       "recreative": [
         {
-          "image": "/images/Turismo/laguna/laguna-botes.jpeg",
+          "image": "/images/Turismo/laguna/laguna-botes.webp",
           "title": "Competencias Locales",
           "description": "Debido a su extensión, es usual que la laguna Sausacocha sea lugar para competencias de deportes acuáticos. Si estás de suerte vas a poder presenciar un evento deportivo sin igual Las disciplinas que se llevan a cabo en la laguna son la moto acuática, el esquí acuático, el kayak y sky surf."
         },
         {
-          "image": "/images/Turismo/laguna/parapente-laguna.jpg",
+          "image": "/images/Turismo/laguna/parapente-laguna.webp",
           "title": "Parapente",
           "description": "En los dias festivos de la laguna sausacocha se reune mucha gente para presenciar las actividades que se realizan una de ellas es poder realizar parapente debido a la altura que tiene el lugar es posible realizarlo con seguridad y pasar un buen momento en familia y tener buenos recuerdos del lugar."
         },
         {
-          "image": "/images/Turismo/laguna/juego.jpeg",
+          "image": "/images/Turismo/laguna/juego.webp",
           "title": "Jugar en Familia",
           "description": "El centro recreativo tiene áreas que están creadas para que los más pequeños puedan jugar. Puede encontrar un espacio de juegos infantiles y una cancha de fútbol, puede pasar un buen rato jugando en familia o dejando que los niños se diviertan mientras el resto de miembros puede pasear por el lugar."
         },
         {
-          "image": "/images/Turismo/laguna/lagunaa2.jpg",
+          "image": "/images/Turismo/laguna/lagunaa2.webp",
           "title": "Tomar Fotografias",
           "description": "Luego de pasar todo un día comiendo, jugando y asoleándose en los alrededores de la laguna, la mejor forma de terminar la jornada es ir al muelle a tener una mejor vista de la puesta del sol, Este muelle tiene un estilo clásico y es el lugar propicio para tomarse fotografías para el recuerdo en familia."
         }
       ],
       "gastronomy": [
         {
-          "image": "/images/Gastronomia/trucha-lagunaa.jpg",
+          "image": "/images/Gastronomia/trucha-lagunaa.webp",
           "title": "Trucha Frita",
           "description": "En la laguna encontraras platos a base de trucha, como lo es la trucha frita acompañado con papas fritas o sancochadas al gusto del cliente."
         },
         {
-          "image": "/images/Gastronomia/cuy-frito.jpg",
+          "image": "/images/Gastronomia/cuy-frito.webp",
           "title": "Cuy Frito",
           "description": "Tambien esta un plato muy rico como lo es el cuy frito o cuy chactado acompañado con papas sancochadas o tambien con ajiaco de papas."
         },
         {
-          "image": "/images/Gastronomia/chicharron-trucha.jpg",
+          "image": "/images/Gastronomia/chicharron-trucha.webp",
           "title": "Chicharron de trucha",
           "description": "El chicharron de trucha tambien esta presente en este lugar es un plato muy vendido por el lugar debido a la preparacion y el sabor."
         },
         {
-          "image": "/images/Gastronomia/patoguisado.jpg",
+          "image": "/images/Gastronomia/patoguisado.webp",
           "title": "Pato Guisado",
           "description": "Existen muchos mas platos que puedes disfrutar en los restaurantes alrededor de la laguna, uno de ellos es el pato guisado."
         }
       ],
       "recommendation": [
-        "Colocarse rendas abrigadas",
+        "Colocarse prendas abrigadas",
         "Verificar estado de salud",
         "Contar con zapatos comodos",
         "No ingresar al agua si consumio bebidas alcholicas",
@@ -88,12 +88,12 @@
     {
       "id": 2,
       "slug": "markahuamachuco",
-      "titleTour": "Complejo arqueologico MarcaHuamachuco",
+      "titleTour": "Complejo arqueológico MarcaHuamachuco",
       "titleRecreative": "Actividades Recreativas",
       "titleGastronomia": "Gastronomia",
       "titleRecomendaciones": "Recomendaciones",
       "image": "/images/Turismo/markahuamachuco/mrkhco-3.jpeg",
-      "hero": "/images/Turismo/markahuamachuco/mrkhco.jpg",
+      "hero": "/images/Turismo/markahuamachuco/mrkhco.webp",
       "route": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d28172.987936074267!2d-78.07641035211448!3d-7.801607535353042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x91ade4eb4ee36581%3A0x33a715bb5b6ac9ab!2sHuamachuco!3m2!1d-7.816460999999999!2d-78.0452048!4m5!1s0x91adfad300000001%3A0xf7d95b57e00f0023!2sMarkahuamachuco%2C%20Huamachuco!3m2!1d-7.786826899999999!2d-78.07745489999999!5e0!3m2!1ses-419!2spe!4v1690519652795!5m2!1ses-419!2spe",
       "description": "El complejo arqueológico de Marcahuamachuco es uno de los tesoros más valiosos de la región de Huamachuco, en la provincia de Sánchez Carrión, La Libertad, Perú. Esta impresionante ciudadela antigua se encuentra a unos 3,500 metros sobre el nivel del mar y es un testimonio asombroso de la ingeniería y la arquitectura de las culturas preincaicas que habitaron la zona.Marcahuamachuco fue un importante centro político, religioso y militar que se desarrolló entre los años 400 y 1300 d.C. Durante este período, la ciudadela experimentó un auge en su construcción y expansión. El complejo está compuesto por diferentes sectores y plazas, todos ellos interconectados por intrincados sistemas de terrazas y escalinatas.",
       "arrive": {
@@ -107,58 +107,58 @@
         ]
       },
       "gallery": [
-        "/images/Turismo/markahuamachuco/mrkhcoo.jpg",
-        "/images/Turismo/markahuamachuco/guardian.jpg",
-        "/images/Turismo/markahuamachuco/torre-mrkhco.jpg",
-        "/images/Turismo/markahuamachuco/entradamrkhco.jpg",
+        "/images/Turismo/markahuamachuco/mrkhcoo.webp",
+        "/images/Turismo/markahuamachuco/guardian.webp",
+        "/images/Turismo/markahuamachuco/torre-mrkhco.webp",
+        "/images/Turismo/markahuamachuco/entradamrkhco.webp",
         "/images/Turismo/markahuamachuco/mrkhco2.jpg",
         "/images/Turismo/markahuamachuco/mrkhco-3.jpeg",
-        "/images/Turismo/markahuamachuco/mrkhco-4.jpg",
-        "/images/Turismo/markahuamachuco/mrkhco-5.jpg",
-        "/images/Turismo/markahuamachuco/camino3.jpg",
-        "/images/Turismo/markahuamachuco/mrkhco-7.png"
+        "/images/Turismo/markahuamachuco/mrkhco-4.webp",
+        "/images/Turismo/markahuamachuco/mrkhco-5.webp",
+        "/images/Turismo/markahuamachuco/camino3.webp",
+        "/images/Turismo/markahuamachuco/mrkhco-7.webp"
       ],
       "recreative": [
         {
-          "image": "/images/Turismo/markahuamachuco/camino2.jpg",
+          "image": "/images/Turismo/markahuamachuco/camino2.webp",
           "title": "Excursion",
           "description": "Explora las diversas estructuras que conforman el complejo arqueológico. Admira las columnas monolíticas del Templo de las Columnas, explora la Fortaleza, el Palacio y la Plaza de los Monumentos. Camina por las terrazas y escalinatas para obtener diferentes perspectivas de la ciudadela."
         },
         {
-          "image": "/images/Turismo/markahuamachuco/caminomrk.jpg",
+          "image": "/images/Turismo/markahuamachuco/caminomrk.webp",
           "title": "Fotografia",
           "description": "Marcahuamachuco ofrece impresionantes vistas panorámicas y oportunidades fotográficas únicas. Captura la majestuosidad de las estructuras y el entorno natural que rodea el complejo. Las columnas, las plazas y los paisajes montañosos proporcionan escenas increíbles para los amantes de la fotografía."
         },
         {
-          "image": "/images/Turismo/markahuamachuco/mrkhco1.jpg",
+          "image": "/images/Turismo/markahuamachuco/mrkhco1.webp",
           "title": "Interaccion Cultural",
           "description": "Durante tu visita, tendrás la oportunidad de interactuar con los pobladores locales, quienes a menudo ofrecen artesanías y productos típicos. Aprende sobre su cultura, tradiciones y formas de vida, lo que agregará un toque auténtico a tu experiencia."
         },
         {
-          "image": "/images/Turismo/markahuamachuco/mrkhco8.jpg",
+          "image": "/images/Turismo/markahuamachuco/mrkhco8.webp",
           "title": "Contemplacion Historica",
           "description": "Dedica un tiempo a simplemente contemplar la historia y el significado del lugar. Imagina cómo era la vida en esta antigua ciudadela y reflexiona sobre la importancia cultural y arqueológica de Marcahuamachuco."
         }
       ],
       "gastronomy": "",
       "recommendation": [
-        "No Arrojar Basura al complejo Arqueologico",
-        "No tratar de hacer daños materiales",
+        "No arroje basura al complejo arqueológico",
+        "No hacer daños materiales",
         "Contar con ropa abrigada",
         "No ingresar alimentos para no ensuciar",
-        "Verificar Estado del clima para realizar alguna actividad",
+        "Verificar estado del clima para realizar alguna actividad",
         "Considerar el tema de la altura, mantengase siempre hidratado"
       ]
     },
     {
       "id": 3,
       "slug": "wiracochapampa",
-      "titleTour": "Complejo arqueologico Wiracochapampa",
+      "titleTour": "Complejo arqueológico Wiracochapampa",
       "titleRecreative": "Actividades Recreativas",
       "titleGastronomia": "Gastronomia",
       "titleRecomendaciones": "Recomendaciones",
-      "image": "/images/Turismo/wiracochapampa/wiracochapampa.jpg",
-      "hero": "/images/Turismo/wiracochapampa/wiraa1.jpg",
+      "image": "/images/Turismo/wiracochapampa/wiracochapampa.webp",
+      "hero": "/images/Turismo/wiracochapampa/wiraa1.webp",
       "route": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d25834.72418502276!2d-78.05505236923901!3d-7.801925786121265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x91ade4eb4ee36581%3A0x33a715bb5b6ac9ab!2sHuamachuco!3m2!1d-7.816460999999999!2d-78.0452048!4m5!1s0x91adfb3494dada6d%3A0x5d21a94e246af8b9!2sWiracochapampa!3m2!1d-7.787670899999999!2d-78.04647!5e0!3m2!1ses-419!2spe!4v1690520785580!5m2!1ses-419!2spe",
       "description": "Wiracochapampa es un sitio arqueológico situado en la región de Huamachuco, en la provincia de Sánchez Carrión, La Libertad, Perú. Conocido como 'La Ciudadela Sagrada', este complejo arqueológico es una muestra impresionante del ingenio y la arquitectura de las culturas preincaicas que habitaron la zona. Wiracochapampa se remonta al período preincaico y fue construido por las culturas que poblaron la región entre los años 300 y 1300 d.C. Esta ciudadela sagrada destaca por sus complejas estructuras y la planificación urbana que demuestra el alto nivel de organización social y política de sus antiguos habitantes.",
       "arrive": {
@@ -174,12 +174,12 @@
       },
       "gallery": [
         "/images/Turismo/wiracochapampa/wira.webp",
-        "/images/Turismo/wiracochapampa/wira3.jpg",
+        "/images/Turismo/wiracochapampa/wira3.webp",
         "/images/Turismo/wiracochapampa/wira1.webp",
-        "/images/Turismo/wiracochapampa/wamanr1.jpg",
-        "/images/Turismo/wiracochapampa/ruta-wira.jpg",
-        "/images/Turismo/wiracochapampa/wiracochapampa1.jpg",
-        "/images/Turismo/wiracochapampa/wiracochapampa.jpg"
+        "/images/Turismo/wiracochapampa/wamanr1.webp",
+        "/images/Turismo/wiracochapampa/ruta-wira.webp",
+        "/images/Turismo/wiracochapampa/wiracochapampa1.webp",
+        "/images/Turismo/wiracochapampa/wiracochapampa.webp"
       ],
       "recreative": [
         {
@@ -188,12 +188,12 @@
           "description": "Admira las diversas estructuras y plazas que conforman Wiracochapampa. Explora los templos, observatorios y áreas residenciales que conforman este complejo arqueológico. Camina por las terrazas y toma tiempo para apreciar la magnificencia y la belleza de las construcciones antiguas."
         },
         {
-          "image": "/images/Turismo/wiracochapampa/wiracochapampaa.jpg",
+          "image": "/images/Turismo/wiracochapampa/wiracochapampaa.webp",
           "title": "Fotografia",
           "description": "Wiracochapampa ofrece impresionantes vistas panorámicas y oportunidades fotográficas únicas. Captura la majestuosidad de las estructuras y el entorno natural que rodea el sitio. Las vistas desde las alturas proporcionan escenas espectaculares para los amantes de la fotografía."
         },
         {
-          "image": "/images/Turismo/wiracochapampa/wamanr2.jpg",
+          "image": "/images/Turismo/wiracochapampa/wamanr2.webp",
           "title": "Waman Raymi",
           "description": "Se lleva a cabo en honor al waman (halcón), un ave sagrada para las culturas andinas, considerada un símbolo de la libertad y la conexión con lo divino. La festividad tiene lugar durante el solsticio de invierno, específicamente alrededor del 21 de junio, momento en el que los antiguos pobladores andinos rendían homenaje al sol y a la naturaleza."
         }
@@ -203,7 +203,7 @@
         "Colocarse prendas abrigadas",
         "Verificar su estado de salud",
         "Contar con zapatos comodos",
-        "No hacer daños al lugar",
+        "No hacer daños materiales al lugar",
         "Verificar Estado del clima para realizar alguna actividad",
         "No Arrojar basura y/o Ensuciar el Lugar"
       ]
@@ -215,8 +215,8 @@
       "titleRecreative": "Actividades Recreativas",
       "titleGastronomia": "Gastronomia",
       "titleRecomendaciones": "Recomendaciones",
-      "image": "/images/Turismo/huaylillas/cushuro.jpg",
-      "hero": "/images/Turismo/huaylillas/cushuro.jpg",
+      "image": "/images/Turismo/huaylillas/cushuro.webp",
+      "hero": "/images/Turismo/huaylillas/cushuro.webp",
       "route": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d94748.19425209975!2d-78.06896690480067!3d-7.863419428727502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x91ade4eb4ee36581%3A0x33a715bb5b6ac9ab!2sHuamachuco!3m2!1d-7.816460999999999!2d-78.0452048!4m5!1s0x91ade1975a6312d5%3A0xfba8b0a0b70597c!2sLaguna%20Cushuro!3m2!1d-7.9093124999999995!2d-78.00993749999999!5e0!3m2!1ses-419!2spe!4v1690521525874!5m2!1ses-419!2spe",
       "description": "La Laguna Cushuro es un hermoso tesoro natural situado en la provincia de Sánchez Carrión, en la región de La Libertad, Perú. Esta laguna es un lugar mágico y único que cautiva a los visitantes con su belleza y su riqueza ecológica. Con su ubicación privilegiada en medio de los paisajes montañosos de Huamachuco, la Laguna Cushuro es un destino imperdible para los amantes de la naturaleza y los entusiastas del turismo sostenible. La Laguna Cushuro se encuentra a una altitud de aproximadamente 3,800 metros sobre el nivel del mar, lo que la convierte en un refugio natural rodeado de montañas y paisajes impresionantes. Lo que hace que esta laguna sea especial es la presencia de pequeñas esferas gelatinosas llamadas 'cushuros' que flotan en la superficie del agua. Estas esferas son producto de una reacción química entre minerales y algas presentes en la laguna, y son comestibles y consideradas nutritivas por los lugareños.",
       "arrive": {
@@ -231,31 +231,31 @@
         ]
       },
       "gallery": [
-        "/images/Turismo/huaylillas/huaylillas.jpeg",
-        "/images/Turismo/huaylillas/huaylillas.jpg",
-        "/images/Turismo/huaylillas/cushuro1.jpg",
-        "/images/Turismo/huaylillas/cushuro.jpg",
-        "/images/Turismo/huaylillas/chacu2.jpg",
-        "/images/Turismo/huaylillas/huaylillas1.jpg"
+        "/images/Turismo/huaylillas/huaylillas.webp",
+        "/images/Turismo/huaylillas/huaylillas-1.webp",
+        "/images/Turismo/huaylillas/cushuro1.webp",
+        "/images/Turismo/huaylillas/cushuro.webp",
+        "/images/Turismo/huaylillas/chacu2.webp",
+        "/images/Turismo/huaylillas/huaylillas1.webp"
       ],
       "recreative": [
         {
-          "image": "/images/Turismo/huaylillas/caminata.jpg",
+          "image": "/images/Turismo/huaylillas/caminata.webp",
           "title": "Senderismo",
           "description": "Explora los alrededores de la laguna a través de caminatas cortas y moderadas. Pregunta a los lugareños o guías locales sobre las rutas de senderismo cercanas y disfruta de la flora y fauna de la zona."
         },
         {
-          "image": "/images/Turismo/huaylillas/escalar.jpg",
+          "image": "/images/Turismo/huaylillas/escalar.webp",
           "title": "Escalar",
           "description": "Puedes tratar de escalar la montaña donde se encuentra una catarata para demostrar tus habilidades y poder tomarte fotografias en el intento, pero se recomienda tener mucho cuidado a la hora de realizar dicha accion."
         },
         {
-          "image": "/images/Turismo/huaylillas/chacu1.jpg",
+          "image": "/images/Turismo/huaylillas/chacu1.webp",
           "title": "Chacu",
           "description": "Los pobladores se agrupan y forman un cerco humano para dirigir a las vicuñas hacia la cerca. Una vez que las vicuñas han sido conducidas a esta zona, se procede a esquilarlas para obtener su lana, conocida como 'fibra de oro', que es apreciada por su calidad."
         },
         {
-          "image": "/images/Turismo/huaylillas/paseo-bote.jpg",
+          "image": "/images/Turismo/huaylillas/paseo-bote.webp",
           "title": "Paseo en bote",
           "description": "El paseo en bote tambien es una gran opcion para pasear y relajarse un momento, aunque, no es una actividad comun que se realize en el lugar, pero con los implementos adecuados se puede realizar con normalidad."
         }
@@ -268,7 +268,7 @@
         "No ingresar al agua si consumio bebidas alcholicas",
         "Verificar Estado del clima para realizar alguna actividad",
         "Considerar el tema de la altura, mantengase siempre hidratado",
-        "Si piensa escalar con mucha precaucion"
+        "Si piensa escalar realizarlo con precaucion"
       ]
     },
     {
@@ -278,8 +278,8 @@
       "titleRecreative": "Actividades Recreativas",
       "titleGastronomia": "Gastronomia",
       "titleRecomendaciones": "Recomendaciones",
-      "image": "/images/Turismo/yanasara/yanasara.jpeg",
-      "hero": "/images/Turismo/yanasara/yanasara1.jpg",
+      "image": "/images/Turismo/yanasara/yanasara.webp",
+      "hero": "/images/Turismo/yanasara/yanasara1.webp",
       "route": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d126491.51049318156!2d-78.04017652841489!3d-7.80467363030462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x91ade4eb4ee36581%3A0x33a715bb5b6ac9ab!2sHuamachuco!3m2!1d-7.816460999999999!2d-78.0452048!4m5!1s0x91ae0816d46dac75%3A0x580bac280165f75c!2sYanasara!3m2!1d-7.8016936999999995!2d-77.9131747!5e0!3m2!1ses-419!2spe!4v1690522431392!5m2!1ses-419!2spe",
       "description": "Estas Aguas Termales se encuentran a 2 480 m.s.n.m., ubicadas a 26 Km. de Huamachuco, lo que equivale a unos 45 minutos en movilidad por medio de una carretera asfaltada. Sus aguas tienen una temperatura de 40 °C.; de los análisis realizados se sabe que contienen Cloruro de sodio, Cloruro de Calcio, Sulfuro de Sodio, Hiposulfito de Soda y Hierro. Sus aguas son utilizadas con fines medicinales, especialmente para el tratamiento del reumatismo. Dentro de sus instalaciones cuenta con pozas privadas, piscina, duchas, vestidores, baños privados. Así mismo alrededor se brinda servicio de alimentación y hospedaje, para el completo disfrute de los visitantes locales, nacionales y extranjeros.",
       "arrive": {
@@ -296,32 +296,32 @@
         ]
       },
       "gallery": [
-        "/images/Turismo/yanasara/yanasara.jpeg",
-        "/images/Turismo/yanasara/ingreso.jpg",
-        "/images/Turismo/yanasara/entrada.jpg",
-        "/images/Turismo/yanasara/yanasara1.jpg",
-        "/images/Turismo/yanasara/yanasara6.jpg",
-        "/images/Turismo/yanasara/piscina1.jpg",
-        "/images/Turismo/yanasara/yanasara-pan.jpg"
+        "/images/Turismo/yanasara/yanasara.webp",
+        "/images/Turismo/yanasara/ingreso.webp",
+        "/images/Turismo/yanasara/entrada.webp",
+        "/images/Turismo/yanasara/yanasara1.webp",
+        "/images/Turismo/yanasara/yanasara6.webp",
+        "/images/Turismo/yanasara/piscina1.webp",
+        "/images/Turismo/yanasara/yanasara-pan.webp"
       ],
       "recreative": [
         {
-          "image": "/images/Turismo/yanasara/piscina.jpg",
+          "image": "/images/Turismo/yanasara/piscina.webp",
           "title": "Natacion",
           "description": "Yanasara cuenta con 3 piscinas, dos grandes para los adultos y una pequeña para los niños, para poder disfrutar de estas aguas calidas que son muy beneficiosas para la salud, sera una gran alternativa."
         },
         {
-          "image": "/images/Turismo/yanasara/campamento.jpg",
+          "image": "/images/Turismo/yanasara/campamento.webp",
           "title": "Campamento",
           "description": "Despues de haber disfrutado y recorrido los lugares de yanasara otra gran opcion es realizar una fogata y estar con los amigos alrededor de ella y contar sus historias bajo la luz de la luna."
         },
         {
-          "image": "/images/Turismo/yanasara/hacienda.jpg",
+          "image": "/images/Turismo/yanasara/hacienda.webp",
           "title": "Deporte",
           "description": "Aparte de la natacion, como otros deportes recreativos tambien hay lugares para poder jugar futbol, volley, bascket, etc. una buena opcion para desestresarse y hacer actividad fisica."
         },
         {
-          "image": "/images/Turismo/yanasara/pozas.jpg",
+          "image": "/images/Turismo/yanasara/pozas.webp",
           "title": "Pozas privadas",
           "description": "Tambien existen pozas privadas, las cuales son mas relajantes para aliviar el cuerpo de enfermedades debido a el agua que es rica en minerales como cloruro de calcio, de sodio, entre otros."
         },
@@ -333,22 +333,22 @@
       ],
       "gastronomy": [
         {
-          "image": "/images/Gastronomia/trucha-lagunaa.jpg",
-          "title": "TRUCHA FRITA",
+          "image": "/images/Gastronomia/trucha-lagunaa.webp",
+          "title": "Trucha Frita",
           "description": "En yanasara tambien encontraras platos como lo es la trucha frita acompañado con papas fritas o sancochadas al gusto del cliente."
         },
         {
-          "image": "/images/Gastronomia/cuy-frito.jpg",
+          "image": "/images/Gastronomia/cuy-frito.webp",
           "title": "Cuy Frito",
           "description": "Tambien esta un plato muy rico como lo es el cuy frito o cuy chactado acompañado con papas sancochadas o tambien con ajiaco de papas."
         },
         {
-          "image": "/images/Gastronomia/shambar.jpg",
+          "image": "/images/Gastronomia/shambar.webp",
           "title": "Shambar",
           "description": "Esta asociado con los dias lunes al mediodia, esta compuesto a base de menestras, trigo pelado, y pellejo de chancho."
         },
         {
-          "image": "/images/Gastronomia/patoguisado.jpg",
+          "image": "/images/Gastronomia/patoguisado.webp",
           "title": "Pato Guisado",
           "description": "Existen muchos mas platos que puedes disfrutar en los restaurantes alrededor de yanasara, uno de ellos es el pato guisado."
         }
@@ -369,8 +369,8 @@
       "titleRecreative": "Actividades Recreativas",
       "titleGastronomia": "Gastronomia Local",
       "titleRecomendaciones": "Recomendaciones",
-      "image": "/images/Turismo/eleden/el-eden.jpeg",
-      "hero": "/images/Turismo/eleden/eden11.jpg",
+      "image": "/images/Turismo/eleden/el-eden.webp",
+      "hero": "/images/Turismo/eleden/eden11.webp",
       "route": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d84413.96384073324!2d-78.03650595897064!3d-7.8490717054605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x91ade4eb4ee36581%3A0x33a715bb5b6ac9ab!2sHuamachuco!3m2!1d-7.816460999999999!2d-78.0452048!4m5!1s0x91ade1eed195ecbf%3A0xd0f491c302c96da0!2sAguas%20Termales%20El%20Eden!3m2!1d-7.886862499999999!2d-77.9430469!5e0!3m2!1ses-419!2spe!4v1690523213388!5m2!1ses-419!2spe",
       "description": "El Edén es un impresionante destino turístico ubicado en la región de Huamachuco, en la provincia de Sánchez Carrión, La Libertad, Perú. Conocido como 'El Edén de las Orquídeas', este lugar paradisíaco es famoso por su exuberante vegetación, cascadas cristalinas y una gran variedad de orquídeas que lo convierten en un paraíso natural para los amantes de la naturaleza y el ecoturismo. Este destino mágico ofrece una combinación única de paisajes montañosos, ríos y vegetación exuberante. El Edén es especialmente reconocido por la abundancia de orquídeas que florecen en la zona, presentando una maravillosa exhibición de colores y formas. Además de las orquídeas, los visitantes pueden encontrar una gran diversidad de flora y fauna, incluyendo especies nativas de aves y animales.",
       "arrive": {
@@ -387,53 +387,53 @@
         ]
       },
       "gallery": [
-        "/images/Turismo/eleden/el-eden.jpeg",
-        "/images/Turismo/eleden/eden11.jpg",
-        "/images/Turismo/eleden/eden-2.jpeg",
-        "/images/Turismo/eleden/eden-3.jpg",
-        "/images/Turismo/eleden/eden3.jpg",
-        "/images/Turismo/eleden/poza.jpg"
+        "/images/Turismo/eleden/el-eden.webp",
+        "/images/Turismo/eleden/eden11.webp",
+        "/images/Turismo/eleden/eden-2.webp",
+        "/images/Turismo/eleden/eden-3.webp",
+        "/images/Turismo/eleden/eden3.webp",
+        "/images/Turismo/eleden/poza.webp"
       ],
       "recreative": [
         {
-          "image": "/images/Turismo/eleden/eden5.jpg",
+          "image": "/images/Turismo/eleden/eden5.webp",
           "title": "Senderismo",
           "description": "Explora los senderos naturales del Edén y adéntrate en la rica flora y fauna de la zona. Disfruta de caminatas tranquilas rodeado de hermosos paisajes montañosos y cascadas cristalinas."
         },
         {
-          "image": "/images/Turismo/eleden/poza.jpg",
+          "image": "/images/Turismo/eleden/poza.webp",
           "title": "Baño en pozas",
           "description": "Refréscate en las cristalinas aguas de las pozas del Edén. Disfruta de un baño en medio de la naturaleza y déjate llevar por la serenidad del entorno."
         },
         {
-          "image": "/images/Turismo/eleden/eden4.jpg",
+          "image": "/images/Turismo/eleden/eden4.webp",
           "title": "Fotografia",
           "description": "Captura la belleza del Edén en fotografías. Las cascadas, las orquídeas y los paisajes montañosos ofrecen increíbles oportunidades fotográficas."
         },
         {
-          "image": "/images/Turismo/eleden/panoramica.jpg",
+          "image": "/images/Turismo/eleden/panoramica.webp",
           "title": "Picnic descanso",
           "description": "Lleva un picnic y disfruta de un momento de relajación rodeado de la naturaleza. El Edén es un lugar perfecto para descansar y disfrutar de la tranquilidad."
         }
       ],
       "gastronomy": [
         {
-          "image": "/images/Gastronomia/trucha-lagunaa.jpg",
-          "title": "TRUCHA FRITA",
-          "description": "En yanasara tambien encontraras platos como lo es la trucha frita acompañado con papas fritas o sancochadas al gusto del cliente."
+          "image": "/images/Gastronomia/trucha-lagunaa.webp",
+          "title": "Trucha Frita",
+          "description": "En el eden tambien encontraras platos como lo es la trucha frita acompañado con papas fritas o sancochadas al gusto del cliente."
         },
         {
-          "image": "/images/Gastronomia/cuy-frito.jpg",
+          "image": "/images/Gastronomia/cuy-frito.webp",
           "title": "Cuy Frito",
           "description": "Tambien esta un plato muy rico como lo es el cuy frito o cuy chactado acompañado con papas sancochadas o tambien con ajiaco de papas."
         },
         {
-          "image": "/images/Gastronomia/shambar.jpg",
+          "image": "/images/Gastronomia/shambar.webp",
           "title": "Shambar",
           "description": "Esta asociado con los dias lunes al mediodia, esta compuesto a base de menestras, trigo pelado, y pellejo de chancho."
         },
         {
-          "image": "/images/Gastronomia/patoguisado.jpg",
+          "image": "/images/Gastronomia/patoguisado.webp",
           "title": "Pato Guisado",
           "description": "Existen muchos mas platos que puedes disfrutar en los restaurantes alrededor de el eden, uno de ellos es el pato guisado."
         }
@@ -795,64 +795,64 @@
         "id": 1,
         "title": "Shambar",
         "description": "Este plato es tradicionalmente esta asociado con los dias lunes al mediodia, esta compuesto a base de menestras, trigo pelado, y acompañado de un pellejo de chancho.",
-        "image": "/images/Gastronomia/shambar.jpg"
+        "image": "/images/Gastronomia/shambar.webp"
       },
       {
         "id": 2,
         "title": "Pachamanca",
         "description": "Una tradicional cocción a base de carnes y tubérculos que se cocina en un horno de piedra caliente, bajo tierra, lo que da como resultado una mezcla de sabores intensos y aromas únicos.",
-        "image": "/images/Gastronomia/pachamanca.jpg"
+        "image": "/images/Gastronomia/pachamanca.webp"
       },
       {
         "id": 3,
         "title": "Picante de Cuy",
         "description": "Este plato esta asociado a los dias festivos y fue comida de nuestros ancestros. El cuy es frito, el cual esta acompañado de un ajiaco de papas amarillas.",
-        "image": "/images/Gastronomia/picante-de-cuy.jpg"
+        "image": "/images/Gastronomia/picante-de-cuy.webp"
       },
       {
         "id": 4,
         "title": "Trucha Frita",
         "description": "La región de La Libertad también es conocida por sus truchas frescas, y una forma popular de prepararlas es a la parrilla o fritas.",
-        "image": "/images/Gastronomia/trucha-lagunaa.jpg"
+        "image": "/images/Gastronomia/trucha-lagunaa.webp"
       },
       {
         "id": 5,
         "title": "Chicharron con yuca",
         "description": "Este plato esta asociado a los dias festivos y fue comida de nuestros ancestros. El cuy es frito, el cual esta acompañado de un ajiaco de papas amarillas.",
-        "image": "/images/Gastronomia/chicharron.jpg"
+        "image": "/images/Gastronomia/chicharron.webp"
       },
       {
         "id": 6,
         "title": "Humitas",
         "description": "Este plato esta asociado a los dias festivos y fue comida de nuestros ancestros. El cuy es frito, el cual esta acompañado de un ajiaco de papas amarillas.",
-        "image": "/images/Gastronomia/humitas.jpg"
+        "image": "/images/Gastronomia/humitas.webp"
       }
     ],
     "bebidas": [
       {
         "title": "Mazamorra de quinua",
         "description": "Similar a la mazamorra, pero preparada con quinua en lugar de maíz morado.",
-        "image": "/images/Gastronomia/mazamorra-quinua.jpg"
+        "image": "/images/Gastronomia/mazamorra-quinua.webp"
       },
       {
         "title": "Arroz con leche",
         "description": "Una preparación a base de arroz cocido en leche con canela y azúcar, que se sirve frío.",
-        "image": "/images/Gastronomia/Arrozconleche.jpg"
+        "image": "/images/Gastronomia/Arrozconleche.webp"
       },
       {
         "title": "Picarones",
         "description": "Una especie de rosquillas hechas de camote y calabaza, fritas y bañadas en miel de chancaca.",
-        "image": "/images/Gastronomia/picarones.jpg"
+        "image": "/images/Gastronomia/picarones.webp"
       },
       {
         "title": "Chicha de Jora",
         "description": "Una bebida fermentada a base de maíz, que es muy popular en todo el Perú y se consume en muchas ocasiones festivas.",
-        "image": "/images/Gastronomia/chicha-jora.jpg"
+        "image": "/images/Gastronomia/chicha-jora.webp"
       },
       {
         "title": "Emoliente",
         "description": "Una bebida caliente hecha a base de hierbas medicinales, como la cebada, linaza, alfalfa y otras, endulzada con miel y limón.",
-        "image": "/images/Gastronomia/emoliente.jpg"
+        "image": "/images/Gastronomia/emoliente.webp"
       },
       {
         "title": "Agua de cebada",
@@ -868,16 +868,16 @@
         "recomend": "Recomendado",
         "address": "Av. 15 de Agosto N° 157 - Huamachuco",
         "phone": "+51 931 835 167",
-        "hero": "/images/Gastronomia/tradicional6.jpg",
+        "hero": "/images/Gastronomia/tradicional6.webp",
         "gallery": [
-          "/images/Gastronomia/tradicional1.jpg",
-          "/images/Gastronomia/tradicional2.jpg",
-          "/images/Gastronomia/tradicional3.jpg",
-          "/images/Gastronomia/tradicional4.jpg",
-          "/images/Gastronomia/tradicional5.jpg",
-          "/images/Gastronomia/tradicional6.jpg",
-          "/images/Gastronomia/tradicional7.jpg",
-          "/images/Gastronomia/tradicional8.jpg"
+          "/images/Gastronomia/tradicional1.webp",
+          "/images/Gastronomia/tradicional2.webp",
+          "/images/Gastronomia/tradicional3.webp",
+          "/images/Gastronomia/tradicional4.webp",
+          "/images/Gastronomia/tradicional5.webp",
+          "/images/Gastronomia/tradicional6.webp",
+          "/images/Gastronomia/tradicional7.webp",
+          "/images/Gastronomia/tradicional8.webp"
         ],
         "attention": [
           "Lunes: 09:00-17:00",
@@ -896,16 +896,16 @@
         "recomend": "Recomendado",
         "address": "Jr. San Román 720, Huamachuco, Peru",
         "phone": "+51 922 044 992",
-        "hero": "/images/Gastronomia/club7.jpg",
+        "hero": "/images/Gastronomia/club7.webp",
         "gallery": [
-          "/images/Gastronomia/club1.jpg",
-          "/images/Gastronomia/club2.jpg",
-          "/images/Gastronomia/club3.jpg",
-          "/images/Gastronomia/club4.jpg",
-          "/images/Gastronomia/club5.jpg",
-          "/images/Gastronomia/club6.jpg",
-          "/images/Gastronomia/club7.jpg",
-          "/images/Gastronomia/club8.jpg"
+          "/images/Gastronomia/club1.webp",
+          "/images/Gastronomia/club2.webp",
+          "/images/Gastronomia/club3.webp",
+          "/images/Gastronomia/club4.webp",
+          "/images/Gastronomia/club5.webp",
+          "/images/Gastronomia/club6.webp",
+          "/images/Gastronomia/club7.webp",
+          "/images/Gastronomia/club8.webp"
         ],
         "attention": [
           "Lunes: 11:00-21:00",
@@ -924,16 +924,16 @@
         "recomend": "Recomendado",
         "address": "Agua de los pajaritos - Huamachuco",
         "phone": "+51 965 228 285",
-        "hero": "/images/Gastronomia/encanto2.jpg",
+        "hero": "/images/Gastronomia/encanto1.webp",
         "gallery": [
-          "/images/Gastronomia/encanto1.jpg",
-          "/images/Gastronomia/encanto2.jpg",
-          "/images/Gastronomia/encanto3.jpg",
-          "/images/Gastronomia/encanto4.jpg",
-          "/images/Gastronomia/encanto5.jpg",
-          "/images/Gastronomia/encanto6.jpg",
-          "/images/Gastronomia/encanto7.jpg",
-          "/images/Gastronomia/encanto8.jpg"
+          "/images/Gastronomia/encanto1.webp",
+          "/images/Gastronomia/encanto2.webp",
+          "/images/Gastronomia/encanto3.webp",
+          "/images/Gastronomia/encanto4.webp",
+          "/images/Gastronomia/encanto5.webp",
+          "/images/Gastronomia/encanto6.webp",
+          "/images/Gastronomia/encanto7.webp",
+          "/images/Gastronomia/encanto8.webp"
         ],
         "attention": [
           "Lunes: 09:00-17:00",
@@ -946,21 +946,21 @@
         ]
       },
       {
-        "image": "/images/Gastronomia/eltunel.jpg",
+        "image": "/images/Gastronomia/eltunel.webp",
         "slug": "el-tunel",
         "title": "El tunel",
         "recomend": "Recomendado",
         "address": "La colpa, carretera hacia trujillo - Huamachuco",
         "phone": "",
-        "hero": "/images/Gastronomia/eltunel.jpg",
+        "hero": "/images/Gastronomia/eltunel.webp",
         "gallery": [
-          "/images/Gastronomia/tunel1.jpg",
-          "/images/Gastronomia/tunel2.jpg",
-          "/images/Gastronomia/tunel3.jpg",
-          "/images/Gastronomia/tunel4.jpg",
-          "/images/Gastronomia/tunel5.jpg",
-          "/images/Gastronomia/tunel6.jpg",
-          "/images/Gastronomia/tunel7.jpg"
+          "/images/Gastronomia/tunel1.webp",
+          "/images/Gastronomia/tunel2.webp",
+          "/images/Gastronomia/tunel3.webp",
+          "/images/Gastronomia/tunel4.webp",
+          "/images/Gastronomia/tunel5.webp",
+          "/images/Gastronomia/tunel6.webp",
+          "/images/Gastronomia/tunel7.webp"
         ],
         "attention": [
           "Lunes: 09:00-21:00",
@@ -976,12 +976,12 @@
   },
   "slides": [
     {
-      "imageUrl": "/images/Turismo/markahuamachuco/mrkhco.jpg",
+      "imageUrl": "/images/Turismo/markahuamachuco/mrkhco.webp",
       "title": "VISITA ESTE INCREIBLE LUGAR",
       "text": "MARKAHUAMACHUCO"
     },
     {
-      "imageUrl": "/images/Turismo/laguna/laguna1.jpg",
+      "imageUrl": "/images/Turismo/laguna/lagunaa11.webp",
       "title": "VISITA ESTE INCREIBLE LUGAR",
       "text": "LAGUNA SAUSACOCHA"
     },
@@ -991,17 +991,17 @@
       "text": "WIRACOCHAPAMPA"
     },
     {
-      "imageUrl": "/images/Turismo/huaylillas/cushuro.jpg",
+      "imageUrl": "/images/Turismo/huaylillas/cushuro.webp",
       "title": "VISITA ESTE INCREIBLE LUGAR",
       "text": "LAGUNA CUSHURO"
     },
     {
-      "imageUrl": "/images/Turismo/yanasara/yanasara1.jpg",
+      "imageUrl": "/images/Turismo/yanasara/yanasara1.webp",
       "title": "VISITA ESTE INCREIBLE LUGAR",
       "text": "AGUAS TERMALES DE YANASARA"
     },
     {
-      "imageUrl": "/images/Turismo/eleden/eden11.jpg",
+      "imageUrl": "/images/Turismo/eleden/eden11.webp",
       "title": "VISITA ESTE INCREIBLE LUGAR",
       "text": "AGUAS TERMALES EL EDEN"
     }
