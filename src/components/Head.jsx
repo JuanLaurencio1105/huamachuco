@@ -6,7 +6,7 @@ const Head = ({ image, title }) => {
   }, [])
   return (
     <div
-      className='w-full h-[400px] bg-fixed object-cover bg-no-repeat bg-cover bg-center relative clip-path'
+      className='w-full h-[400px] bg-fixed object-cover bg-no-repeat bg-cover bg-bottom relative clip-path'
       style={{ backgroundImage: `url(${image})` }}
     >
       <div className='absolute top-0 w-full h-full flex justify-center items-center'>
