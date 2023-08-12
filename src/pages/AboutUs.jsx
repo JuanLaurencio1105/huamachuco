@@ -165,9 +165,8 @@ const AboutUs = () => {
                 </div>
                 <div className='mt-4 flex justify-center'>
                   <Button
-                    type='primary'
-                    text='ENVIAR'
-                    onClick={handleSubmit}
+                    type='submit'
+                    text='Enviar'
                   />
                 </div>
                 {formSubmitted && (
