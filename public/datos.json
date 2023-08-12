@@ -92,7 +92,7 @@
       "titleRecreative": "Actividades Recreativas",
       "titleGastronomia": "Gastronomia",
       "titleRecomendaciones": "Recomendaciones",
-      "image": "/images/Turismo/markahuamachuco/mrkhco-3.jpeg",
+      "image": "/images/Turismo/markahuamachuco/mrkhco-3.webp",
       "hero": "/images/Turismo/markahuamachuco/mrkhco.webp",
       "route": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d28172.987936074267!2d-78.07641035211448!3d-7.801607535353042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x91ade4eb4ee36581%3A0x33a715bb5b6ac9ab!2sHuamachuco!3m2!1d-7.816460999999999!2d-78.0452048!4m5!1s0x91adfad300000001%3A0xf7d95b57e00f0023!2sMarkahuamachuco%2C%20Huamachuco!3m2!1d-7.786826899999999!2d-78.07745489999999!5e0!3m2!1ses-419!2spe!4v1690519652795!5m2!1ses-419!2spe",
       "description": "El complejo arqueológico de Marcahuamachuco es uno de los tesoros más valiosos de la región de Huamachuco, en la provincia de Sánchez Carrión, La Libertad, Perú. Esta impresionante ciudadela antigua se encuentra a unos 3,500 metros sobre el nivel del mar y es un testimonio asombroso de la ingeniería y la arquitectura de las culturas preincaicas que habitaron la zona.Marcahuamachuco fue un importante centro político, religioso y militar que se desarrolló entre los años 400 y 1300 d.C. Durante este período, la ciudadela experimentó un auge en su construcción y expansión. El complejo está compuesto por diferentes sectores y plazas, todos ellos interconectados por intrincados sistemas de terrazas y escalinatas.",
@@ -111,8 +111,8 @@
         "/images/Turismo/markahuamachuco/guardian.webp",
         "/images/Turismo/markahuamachuco/torre-mrkhco.webp",
         "/images/Turismo/markahuamachuco/entradamrkhco.webp",
-        "/images/Turismo/markahuamachuco/mrkhco2.jpg",
-        "/images/Turismo/markahuamachuco/mrkhco-3.jpeg",
+        "/images/Turismo/markahuamachuco/mrkhco2.webp",
+        "/images/Turismo/markahuamachuco/mrkhco-3.webp",
         "/images/Turismo/markahuamachuco/mrkhco-4.webp",
         "/images/Turismo/markahuamachuco/mrkhco-5.webp",
         "/images/Turismo/markahuamachuco/camino3.webp",
@@ -696,7 +696,6 @@
         "Servicio de Lavanderia"
       ],
       "gallery": [
-        "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/103359124.jpg?k=fe8dcf726492df8620b3f8a0fbae9abc7dc6a6c7bd75611145e0a3d01a35cf9a&o=",
         "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/103369248.jpg?k=4a4ae581e141cf1c284a067fd80356f3275dd017d4881feecdd97445d12b1924&o=",
         "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/103995119.jpg?k=4f1210f08714ac197bf97f1ced94a9e3ecf398aac365dd240d1a200c9af145d0&o=",
         "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/103363878.jpg?k=905e091105af539199fc9e778bc131231eaf30ea9617a068c2d4ba43e00c73df&o=",
