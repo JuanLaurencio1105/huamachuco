@@ -4,6 +4,7 @@ import { AiOutlineContacts, AiOutlineHome, AiOutlineMenu } from 'react-icons/ai'
 import { HiUserGroup } from 'react-icons/hi'
 import { IoFastFoodOutline } from 'react-icons/io5'
 import { MdClose } from 'react-icons/md'
+import { BsCamera } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 import Button from '../components/Button'
 
@@ -71,7 +72,7 @@ const Header = () => {
             <NavLink
               to='/turismo'
               text='Atracciones Turisticas'
-              icon={<HiUserGroup size={23} />}
+              icon={<BsCamera size={23} />}
               onClick={handleClickFunctions}
             />
             <NavLink
