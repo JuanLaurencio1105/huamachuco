@@ -113,10 +113,8 @@ const Contact = () => {
                 </div>
                 <div className='mt-4 flex justify-center'>
                   <Button
-                    type='primary'
-                    text='ENVIAR'
-                    onSubmit
-                    onClick={handleSubmit}
+                  type='submit'
+                  text='Enviar'
                   />
                 </div>
                 {formSubmitted && (

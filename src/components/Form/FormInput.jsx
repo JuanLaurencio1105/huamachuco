@@ -16,6 +16,7 @@ const FormInput = ({
         value={value}
         name={name}
         onChange={onChange}
+        required
       />
       <label
         htmlFor={label}

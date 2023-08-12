@@ -28,8 +28,8 @@ const Footer = () => {
               </Link>
             </li>
             <li className='text-start border-l border-white pl-2'>
-              <Link to='/gastronomia' className='hover:text-black transition' onClick={scroolTop}>
-                Gastronomia
+              <Link to='/restaurantes' className='hover:text-black transition' onClick={scroolTop}>
+                Restaurantes
               </Link>
             </li>
             <li className='text-start border-l border-white pl-2'>
