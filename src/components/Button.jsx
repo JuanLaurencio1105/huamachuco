@@ -16,8 +16,8 @@ const Button = ({ type, children, text, onClick, to }) => {
         )
       }
       {
-        type === 'secondary' && (
-          <button className='bg-blue-400 px-6 py-1 rounded-lg hover:opacity-80'>
+        type === 'submit' && (
+          <button type='submit' className='bg-red-400 px-6 py-1 rounded-lg hover:opacity-80 text-white flex justify-center items-center gap-2'>
             {text}
             {children}
           </button>
