@@ -5,6 +5,7 @@ import { HiUserGroup } from 'react-icons/hi'
 import { IoFastFoodOutline } from 'react-icons/io5'
 import { MdClose } from 'react-icons/md'
 import { BsCamera } from 'react-icons/bs'
+import { LuHotel } from 'react-icons/lu'
 import { Link } from 'react-router-dom'
 import Button from '../components/Button'
 
@@ -70,21 +71,27 @@ const Header = () => {
               onClick={handleClickFunctions}
             />
             <NavLink
-              to='/turismo'
-              text='Atracciones Turisticas'
-              icon={<BsCamera size={23} />}
-              onClick={handleClickFunctions}
-            />
-            <NavLink
               to='/nosotros'
               text='Sobre Nosotros'
               icon={<HiUserGroup size={23} />}
               onClick={handleClickFunctions}
             />
             <NavLink
+              to='/turismo'
+              text='Atracciones Turisticas'
+              icon={<BsCamera size={23} />}
+              onClick={handleClickFunctions}
+            />
+            <NavLink
               to='/restaurantes'
               text='Restaurantes'
               icon={<IoFastFoodOutline size={23} />}
+              onClick={handleClickFunctions}
+            />
+            <NavLink
+              to='/hoteles'
+              text='Hoteles'
+              icon={<LuHotel size={23} />}
               onClick={handleClickFunctions}
             />
             <NavLink

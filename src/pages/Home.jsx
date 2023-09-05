@@ -18,7 +18,6 @@ const Home = () => {
   const [data] = useState(datosJson.turismo)
   const [costumbres] = useState(datosJson.costumbre)
   const [gastronomia] = useState(datosJson.gastronomia.platos)
-  const [hoteles] = useState(datosJson.Hoteles)
   const [toggleTab, setToggleTab] = useState(0)
   const showData = data.slice(0, 3)
   const showPlato = gastronomia.slice(0, 3)
@@ -198,19 +197,6 @@ const Home = () => {
           </div>
         </section>
       </Layout>
-      <div className='bg-white mt-12 pt-4 pb-16 scrollBottom'>
-        <Layout>
-          <h2>HOTELES MAS POPULARES</h2>
-          <div className='grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-6 xl:grid-cols-4'>
-            {hoteles.map((hotel, index) => (
-              <CardHotel
-                key={index + 1}
-                data={hotel}
-              />
-            ))}
-          </div>
-        </Layout>
-      </div>
     </div>
   )
 }

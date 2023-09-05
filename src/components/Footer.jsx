@@ -38,6 +38,11 @@ const Footer = () => {
               </Link>
             </li>
             <li className='text-start border-l border-white pl-2'>
+              <Link to='/nosotros' className='hover:text-black transition' onClick={scroolTop}>
+                Hoteles
+              </Link>
+            </li>
+            <li className='text-start border-l border-white pl-2'>
               <Link to='/contacto' className='hover:text-black transition' onClick={scroolTop}>
                 Contacto
               </Link>
@@ -54,14 +59,14 @@ const Footer = () => {
             <AiOutlineMail />
             <div>
               <p>Correo</p>
-              <span>pyinnovadorproto@gmail.com</span>
+              <span>juanlaurencio1105@gmail.com</span>
             </div>
           </div>
           <div className='flex items-center gap-2'>
             <GiSmartphone />
             <div>
               <p>Telefono</p>
-              <span>+51 919191919</span>
+              <span>+51 918182188</span>
             </div>
           </div>
         </div>

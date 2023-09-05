@@ -68,11 +68,11 @@ const Contact = () => {
               <div className='mt-6 flex flex-col gap-4'>
                 <div>
                   <p className='font-semibold'>Llamenos:</p>
-                  <span>+51 919191919</span>
+                  <span>+51 918182188</span>
                 </div>
                 <div>
                   <p className='font-semibold'>Envianos un correo:</p>
-                  <span>cuatroruedashco@gmail.com</span>
+                  <span>juanlaurencio1105@gmail.com</span>
                 </div>
               </div>
             </section>
