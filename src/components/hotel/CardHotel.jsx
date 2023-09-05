@@ -11,7 +11,7 @@ const CardHotel = ({ data, onClick }) => {
   }
 
   return (
-    <article className='border border-slate-400 w-full bg-white overflow-hidden flex flex-col mt-6 sm:flex-row md:flex-col lg:flex-row xl:flex-col'>
+    <article className='border border-slate-400 w-full bg-white overflow-hidden flex flex-col mt-6 rounded-xl sm:flex-row md:flex-col lg:flex-row xl:flex-col'>
       <div className='overflow-hidden'>
         <Link
           to={`/hoteles/${data.slug}`}
@@ -20,7 +20,7 @@ const CardHotel = ({ data, onClick }) => {
           <img
             src={data.image}
             alt="Imagen del Hotel"
-            className='w-full h-48 bg-cover bg-center object-cover sm:h-full max-h-60 xl:h-44 overflow-hidden hover:scale-110 transition-all'
+            className='w-full h-56 bg-cover bg-center object-cover sm:h-full max-h-60 xl:h-56 overflow-hidden hover:scale-110 transition-all'
           />
         </Link>
       </div>
@@ -29,7 +29,7 @@ const CardHotel = ({ data, onClick }) => {
         <ul className='px-4'>
           <li className='inline-block bg-green-300 px-2 rounded-md mb-2'>
             <BsCheck2 className='inline-block mr-1' />
-            <span className='inline-block'>{data.recomend}</span>
+            <span className='inline-block text-sm'>{data.recomend}</span>
           </li>
           <li className='flex items-center mb-2 gap-1'>
             <span>
