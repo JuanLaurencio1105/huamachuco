@@ -21,6 +21,10 @@ const Hero = () => {
       imageUrl: '/images/Turismo/huamachuco/agua-pajaritos.webp',
     },
     {
+      id: 7,
+      imageUrl: '/images/Turismo/huamachuco/iglesia.webp',
+    },
+    {
       id: 3,
       imageUrl: '/images/Turismo/markahuamachuco/mrkhco-7.webp',
     },
