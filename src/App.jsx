@@ -13,6 +13,7 @@ import HotelDetail from './components/hotel/HotelDetail'
 import HistoryHco from './pages/HistoryHco'
 import { Route, Routes } from 'react-router-dom'
 import '/public/css/app.css'
+import Hotels from './pages/Hotels'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         <Route path='/nosotros' element={<AboutUs />} />
         <Route path='/restaurantes' element={<Restaurant />} />
         <Route path='/restaurantes/:slug' element={<RestaurantDetail />} />
+        <Route path='/hoteles' element={<Hotels />} />
         <Route path='/contacto' element={<Contact />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
