@@ -60,9 +60,10 @@ const Contact = () => {
           <div className='mt-10 md:flex justify-center items-center gap-6'>
             <section className='w-full scrollLeft'>
               <div className='flex flex-col gap-4'>
-                <h2>¿TIENE PREGUNTAS?</h2>
-                <p>No dude en llamarnos o enviarnos un correo electrónico,
-                  o utilice nuestro formulario de contacto para ponerse en contacto con nosotros.</p>
+                <h2>¿Tienes algún negocio orientado al turismo?</h2>
+                <h2>¿Quieres darte a conocer con nosotros? </h2>
+                <p>Agencia de viaje, restaurant, hospedaje, hotel, etc...¡Todos son bienvenidos!
+                  Déjanos tus datos y nos contactaremos contigo. ¡Juntos promoviendo el turismo en Huamachuco!</p>
                 <span>¡Esperamos con interes escuchar de usted!</span>
               </div>
               <div className='mt-6 flex flex-col gap-4'>
@@ -113,8 +114,8 @@ const Contact = () => {
                 </div>
                 <div className='mt-4 flex justify-center'>
                   <Button
-                  type='submit'
-                  text='Enviar'
+                    type='submit'
+                    text='Enviar'
                   />
                 </div>
                 {formSubmitted && (
